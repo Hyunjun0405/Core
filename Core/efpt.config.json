@@ -1,0 +1,253 @@
+﻿{
+   "ContextClassName": "TripboxContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": "Models",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "Core",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Agent]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[BookingField]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Category]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[City]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Extra]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Field]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MasterCode]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Member]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Message]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MessageTemplate]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NegotiatedRate]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Order]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OrderField]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OrderItem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OrderItemExtra]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OrderItemField]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OrderItemProduct]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OrderItemResource]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OrderItemSession]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Package]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PackageSession]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Party]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PartyAccount]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PartyContact]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PartyRelation]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Payment]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PaymentOrder]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Pickup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PickupSpot]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PriceOption]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Product]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductCategory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductExtra]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductField]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductImage]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductNego]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductPrice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductRelated]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductSession]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductSpot]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductSurcharge]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductTag]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductVideo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Promotion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Purchage]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PurchageDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Resource]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SessionOrdered]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SessionResource]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SessionRole]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SessionTemplate]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SessionTemplateWeek]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Spot]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Supplier]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SupplierCity]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SupplierPayment]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Surcharge]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[User]"
+      }
+   ],
+   "UseDatabaseNames": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false
+}

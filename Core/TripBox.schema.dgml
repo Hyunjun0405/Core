@@ -1,0 +1,1241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" ZoomLevel="1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Database" Category="Database" Bounds="0,0,4066.60833333333,585" Group="Expanded" Label="Data Source=4GXVLD2;Initial Catalog=TripBox;Integrated Security=True" />
+    <Node Id="dbo" Category="Schema" Bounds="20,40,4026.60833333333,525" Group="Expanded" Label="dbo" />
+    <Node Id="dbo.Agent" Category="Table" Bounds="449.315,410,96.8666666666667,25" Group="Collapsed" Label="dbo.Agent" />
+    <Node Id="dbo.Agent_address" Category="Field Optional" Description="ntext" Label="address" />
+    <Node Id="dbo.Agent_codeAgent" Category="Field Optional" Description="nvarchar(100)" Label="codeAgent" />
+    <Node Id="dbo.Agent_companyBilling" Category="Field Optional" Description="nvarchar(100)" Label="companyBilling" />
+    <Node Id="dbo.Agent_email" Category="Field Optional" Description="nvarchar(200)" Label="email" />
+    <Node Id="dbo.Agent_emailBilling" Category="Field Optional" Description="nvarchar(200)" Label="emailBilling" />
+    <Node Id="dbo.Agent_idAgent" Category="Field Primary" Description="bigint" Label="idAgent" />
+    <Node Id="dbo.Agent_idSupplier" Category="Field Optional" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.Agent_isEditOrder" Category="Field" Description="bit" Label="isEditOrder" />
+    <Node Id="dbo.Agent_isEditOrderPrice" Category="Field" Description="bit" Label="isEditOrderPrice" />
+    <Node Id="dbo.Agent_isPrivate" Category="Field" Description="bit" Label="isPrivate" />
+    <Node Id="dbo.Agent_nameAgent" Category="Field Optional" Description="nvarchar(100)" Label="nameAgent" />
+    <Node Id="dbo.Agent_nameFirst" Category="Field Optional" Description="nvarchar(100)" Label="nameFirst" />
+    <Node Id="dbo.Agent_nameLast" Category="Field Optional" Description="nvarchar(100)" Label="nameLast" />
+    <Node Id="dbo.Agent_noteBill" Category="Field Optional" Description="nvarchar(1000)" Label="noteBill" />
+    <Node Id="dbo.Agent_rateComm" Category="Field" Description="smallint" Label="rateComm" />
+    <Node Id="dbo.Agent_tel" Category="Field Optional" Description="nvarchar(100)" Label="tel" />
+    <Node Id="dbo.Agent_typeAgent" Category="Field Optional" Description="nchar(4)" Label="typeAgent" />
+    <Node Id="dbo.Agent_typePayment" Category="Field Optional" Description="nchar(4)" Label="typePayment" />
+    <Node Id="dbo.Agent_userBilling" Category="Field Optional" Description="nvarchar(100)" Label="userBilling" />
+    <Node Id="dbo.Agent_website" Category="Field Optional" Description="nvarchar(200)" Label="website" />
+    <Node Id="dbo.BookingField" Category="Table" Bounds="3147.57333333333,300,134.35,25" Group="Collapsed" Label="dbo.BookingField" />
+    <Node Id="dbo.BookingField_idField" Category="Field Primary" Description="bigint" Label="idField" />
+    <Node Id="dbo.BookingField_idProduct" Category="Field Primary" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.BookingField_isMandatory" Category="Field" Description="bit" Label="isMandatory" />
+    <Node Id="dbo.BookingField_isShow" Category="Field" Description="bit" Label="isShow" />
+    <Node Id="dbo.Category" Category="Table" Bounds="1745.13166666667,355,113.233333333333,25" Group="Collapsed" Label="dbo.Category" />
+    <Node Id="dbo.Category_description" Category="Field Optional" Description="nvarchar(1000)" Label="description" />
+    <Node Id="dbo.Category_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Category_idSupplier" Category="Field" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.Category_isShow" Category="Field" Description="bit" Label="isShow" />
+    <Node Id="dbo.Category_name" Category="Field" Description="nvarchar(100)" Label="name" />
+    <Node Id="dbo.City" Category="Table" Bounds="1023.315,410,84.8666666666668,25" Group="Collapsed" Label="dbo.City" />
+    <Node Id="dbo.City_codeCountry" Category="Field" Description="nchar(2)" Label="codeCountry" />
+    <Node Id="dbo.City_continent" Category="Field Optional" Description="nvarchar(100)" Label="continent" />
+    <Node Id="dbo.City_country" Category="Field Optional" Description="nvarchar(100)" Label="country" />
+    <Node Id="dbo.City_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.City_name" Category="Field Optional" Description="nvarchar(100)" Label="name" />
+    <Node Id="dbo.City_nameEN" Category="Field Optional" Description="nvarchar(100)" Label="nameEN" />
+    <Node Id="dbo.City_state" Category="Field Optional" Description="nvarchar(100)" Label="state" />
+    <Node Id="dbo.Extra" Category="Table" Bounds="3461.42333333333,355,90.6500000000001,25" Group="Collapsed" Label="dbo.Extra" />
+    <Node Id="dbo.Extra_cost" Category="Field" Description="bigint" Label="cost" />
+    <Node Id="dbo.Extra_description" Category="Field" Description="nvarchar(1000)" Label="description" />
+    <Node Id="dbo.Extra_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Extra_idSupplier" Category="Field" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.Extra_isLimitQuantity" Category="Field" Description="bit" Label="isLimitQuantity" />
+    <Node Id="dbo.Extra_name" Category="Field Optional" Description="nvarchar(100)" Label="name" />
+    <Node Id="dbo.Extra_price" Category="Field" Description="bigint" Label="price" />
+    <Node Id="dbo.Extra_quantityExtra" Category="Field" Description="smallint" Label="quantityExtra" />
+    <Node Id="dbo.Extra_quantityMax" Category="Field" Description="smallint" Label="quantityMax" />
+    <Node Id="dbo.Extra_typeOrderQuantity" Category="Field" Description="nchar(4)" Label="typeOrderQuantity" />
+    <Node Id="dbo.Extra_urlImage" Category="Field" Description="nvarchar(200)" Label="urlImage" />
+    <Node Id="dbo.Field" Category="Table" Bounds="3267.85666666667,355,89.7833333333333,25" Group="Collapsed" Label="dbo.Field" />
+    <Node Id="dbo.Field_dataType" Category="Field" Description="nchar(4)" Label="dataType" />
+    <Node Id="dbo.Field_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Field_idSupplier" Category="Field Optional" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.Field_listValue" Category="Field Optional" Description="ntext" Label="listValue" />
+    <Node Id="dbo.Field_name" Category="Field" Description="nvarchar(100)" Label="name" />
+    <Node Id="dbo.Field_typeApply" Category="Field" Description="nchar(4)" Label="typeApply" />
+    <Node Id="dbo.MasterCode" Category="Table" Bounds="40,520,129.943333333333,25" Group="Collapsed" Label="dbo.MasterCode" />
+    <Node Id="dbo.MasterCode_code" Category="Field Primary" Description="nchar(4)" Label="code" />
+    <Node Id="dbo.MasterCode_desc01" Category="Field Optional" Description="nvarchar(1000)" Label="desc01" />
+    <Node Id="dbo.MasterCode_desc02" Category="Field Optional" Description="nvarchar(1000)" Label="desc02" />
+    <Node Id="dbo.MasterCode_desc03" Category="Field Optional" Description="nvarchar(1000)" Label="desc03" />
+    <Node Id="dbo.MasterCode_typeCode" Category="Field" Description="nchar(3)" Label="typeCode" />
+    <Node Id="dbo.MasterCode_valueCode" Category="Field" Description="nchar(3)" Label="valueCode" />
+    <Node Id="dbo.Member" Category="Table" Bounds="882.695,410,110.106666666667,25" Group="Collapsed" Label="dbo.Member" />
+    <Node Id="dbo.Member_idParty" Category="Field Primary" Description="bigint" Label="idParty" />
+    <Node Id="dbo.Member_imageProfile" Category="Field Optional" Description="nvarchar(200)" Label="imageProfile" />
+    <Node Id="dbo.Member_nickname" Category="Field" Description="nvarchar(100)" Label="nickname" />
+    <Node Id="dbo.Member_userID" Category="Field" Description="nvarchar(100)" Label="userID" />
+    <Node Id="dbo.Member_userPWD" Category="Field" Description="nvarchar(20)" Label="userPWD" />
+    <Node Id="dbo.Message" Category="Table" Bounds="742.771666666667,355,111.953333333333,25" Group="Collapsed" Label="dbo.Message" />
+    <Node Id="dbo.MessageTemplate" Category="Table" Bounds="549.598333333333,355,162.3,25" Group="Collapsed" Label="dbo.MessageTemplate" />
+    <Node Id="dbo.MessageTemplate_colorTheme" Category="Field Optional" Description="nchar(4)" Label="colorTheme" />
+    <Node Id="dbo.MessageTemplate_conclusionText" Category="Field Optional" Description="ntext" Label="conclusionText" />
+    <Node Id="dbo.MessageTemplate_footer" Category="Field Optional" Description="ntext" Label="footer" />
+    <Node Id="dbo.MessageTemplate_fromEmail" Category="Field Optional" Description="nvarchar(200)" Label="fromEmail" />
+    <Node Id="dbo.MessageTemplate_headerType" Category="Field Optional" Description="nchar(4)" Label="headerType" />
+    <Node Id="dbo.MessageTemplate_headerValue" Category="Field Optional" Description="nvarchar(1000)" Label="headerValue" />
+    <Node Id="dbo.MessageTemplate_idSupplier" Category="Field Primary" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.MessageTemplate_introductionText" Category="Field Optional" Description="ntext" Label="introductionText" />
+    <Node Id="dbo.MessageTemplate_isAttachFile" Category="Field" Description="bit" Label="isAttachFile" />
+    <Node Id="dbo.MessageTemplate_isBusinessNumber" Category="Field" Description="bit" Label="isBusinessNumber" />
+    <Node Id="dbo.MessageTemplate_isCompanyAddress" Category="Field" Description="bit" Label="isCompanyAddress" />
+    <Node Id="dbo.MessageTemplate_isComplanyLogo" Category="Field" Description="bit" Label="isComplanyLogo" />
+    <Node Id="dbo.MessageTemplate_isConclusionText" Category="Field" Description="bit" Label="isConclusionText" />
+    <Node Id="dbo.MessageTemplate_isConnectWithUs" Category="Field" Description="bit" Label="isConnectWithUs" />
+    <Node Id="dbo.MessageTemplate_isCustomerDetail" Category="Field" Description="bit" Label="isCustomerDetail" />
+    <Node Id="dbo.MessageTemplate_isGeneralTerm" Category="Field" Description="bit" Label="isGeneralTerm" />
+    <Node Id="dbo.MessageTemplate_isGuestDetail" Category="Field" Description="bit" Label="isGuestDetail" />
+    <Node Id="dbo.MessageTemplate_isIntroductionText" Category="Field" Description="bit" Label="isIntroductionText" />
+    <Node Id="dbo.MessageTemplate_isItemDetail" Category="Field" Description="bit" Label="isItemDetail" />
+    <Node Id="dbo.MessageTemplate_isItemSummary" Category="Field" Description="bit" Label="isItemSummary" />
+    <Node Id="dbo.MessageTemplate_isMap" Category="Field" Description="bit" Label="isMap" />
+    <Node Id="dbo.MessageTemplate_isOrderSummary" Category="Field" Description="bit" Label="isOrderSummary" />
+    <Node Id="dbo.MessageTemplate_isPaymentDetail" Category="Field" Description="bit" Label="isPaymentDetail" />
+    <Node Id="dbo.MessageTemplate_isPickup" Category="Field" Description="bit" Label="isPickup" />
+    <Node Id="dbo.MessageTemplate_isProductSpecialMessage" Category="Field" Description="bit" Label="isProductSpecialMessage" />
+    <Node Id="dbo.MessageTemplate_isQRCode" Category="Field" Description="bit" Label="isQRCode" />
+    <Node Id="dbo.MessageTemplate_isQuickSummary" Category="Field" Description="bit" Label="isQuickSummary" />
+    <Node Id="dbo.MessageTemplate_isSpecialRequirement" Category="Field" Description="bit" Label="isSpecialRequirement" />
+    <Node Id="dbo.MessageTemplate_isSpecificTerm" Category="Field" Description="bit" Label="isSpecificTerm" />
+    <Node Id="dbo.MessageTemplate_subject" Category="Field Optional" Description="nvarchar(200)" Label="subject" />
+    <Node Id="dbo.MessageTemplate_typeFooter" Category="Field Optional" Description="nchar(4)" Label="typeFooter" />
+    <Node Id="dbo.Message_conclusionText" Category="Field Optional" Description="ntext" Label="conclusionText" />
+    <Node Id="dbo.Message_idSupplier" Category="Field Primary" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.Message_introductionText" Category="Field Optional" Description="ntext" Label="introductionText" />
+    <Node Id="dbo.Message_isAttachFile" Category="Field" Description="bit" Label="isAttachFile" />
+    <Node Id="dbo.Message_isConclusionText" Category="Field" Description="bit" Label="isConclusionText" />
+    <Node Id="dbo.Message_isIntroductionText" Category="Field" Description="bit" Label="isIntroductionText" />
+    <Node Id="dbo.Message_isSend" Category="Field" Description="bit" Label="isSend" />
+    <Node Id="dbo.Message_ratePayment" Category="Field" Description="numeric(12,2)" Label="ratePayment" />
+    <Node Id="dbo.Message_timetypeSend" Category="Field Optional" Description="nchar(4)" Label="timetypeSend" />
+    <Node Id="dbo.Message_typePurpose" Category="Field Primary" Description="nchar(4)" Label="typePurpose" />
+    <Node Id="dbo.Message_typeSend" Category="Field Primary" Description="nchar(4)" Label="typeSend" />
+    <Node Id="dbo.Message_typeTimeBase" Category="Field Optional" Description="nchar(4)" Label="typeTimeBase" />
+    <Node Id="dbo.Message_valueSend" Category="Field" Description="smallint" Label="valueSend" />
+    <Node Id="dbo.NegotiatedRate" Category="Table" Bounds="40,410,149.496666666667,25" Group="Collapsed" Label="dbo.NegotiatedRate" />
+    <Node Id="dbo.NegotiatedRate_idSupplier" Category="Field Primary" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.NegotiatedRate_name" Category="Field Primary" Description="nvarchar(100)" Label="name" />
+    <Node Id="dbo.Order" Category="Table" Bounds="3610.91833333333,355,95.6599999999999,25" Group="Collapsed" Label="dbo.Order" />
+    <Node Id="dbo.OrderField" Category="Table" Bounds="3538.15,300,121.196666666667,25" Group="Collapsed" Label="dbo.OrderField" />
+    <Node Id="dbo.OrderField_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.OrderField_idField" Category="Field Foreign" Description="bigint" Label="idField" />
+    <Node Id="dbo.OrderField_idOrder" Category="Field Foreign" Description="bigint" Label="idOrder" />
+    <Node Id="dbo.OrderField_valueOrder" Category="Field" Description="ntext" Label="valueOrder" />
+    <Node Id="dbo.OrderItem" Category="Table" Bounds="2736.73833333333,190,120.02,25" Group="Collapsed" Label="dbo.OrderItem" />
+    <Node Id="dbo.OrderItemExtra" Category="Table" Bounds="3433.53666666667,135,146.423333333333,25" Group="Collapsed" Label="dbo.OrderItemExtra" />
+    <Node Id="dbo.OrderItemExtra_amountExtra" Category="Field" Description="bigint" Label="amountExtra" />
+    <Node Id="dbo.OrderItemExtra_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.OrderItemExtra_idExtra" Category="Field Foreign" Description="bigint" Label="idExtra" />
+    <Node Id="dbo.OrderItemExtra_idOrderItem" Category="Field Foreign" Description="bigint" Label="idOrderItem" />
+    <Node Id="dbo.OrderItemExtra_priceExtra" Category="Field" Description="bigint" Label="priceExtra" />
+    <Node Id="dbo.OrderItemExtra_quantityExtra" Category="Field" Description="smallint" Label="quantityExtra" />
+    <Node Id="dbo.OrderItemField" Category="Table" Bounds="3239.97,135,145.556666666667,25" Group="Collapsed" Label="dbo.OrderItemField" />
+    <Node Id="dbo.OrderItemField_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.OrderItemField_idField" Category="Field Foreign" Description="bigint" Label="idField" />
+    <Node Id="dbo.OrderItemField_idOrderItem" Category="Field Foreign" Description="bigint" Label="idOrderItem" />
+    <Node Id="dbo.OrderItemField_valueOrderItem" Category="Field" Description="ntext" Label="valueOrderItem" />
+    <Node Id="dbo.OrderItemProduct" Category="Table" Bounds="2715.61166666667,135,162.273333333334,25" Group="Collapsed" Label="dbo.OrderItemProduct" />
+    <Node Id="dbo.OrderItemProduct_amountOrder" Category="Field" Description="bigint" Label="amountOrder" />
+    <Node Id="dbo.OrderItemProduct_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.OrderItemProduct_idOrderItem" Category="Field Foreign" Description="bigint" Label="idOrderItem" />
+    <Node Id="dbo.OrderItemProduct_idPrice" Category="Field Foreign" Description="bigint" Label="idPrice" />
+    <Node Id="dbo.OrderItemProduct_price" Category="Field" Description="bigint" Label="price" />
+    <Node Id="dbo.OrderItemProduct_quantityOrder" Category="Field" Description="smallint" Label="quantityOrder" />
+    <Node Id="dbo.OrderItemProduct_quantityUnit" Category="Field" Description="smallint" Label="quantityUnit" />
+    <Node Id="dbo.OrderItemProduct_quantityUsed" Category="Field" Description="smallint" Label="quantityUsed" />
+    <Node Id="dbo.OrderItemProduct_typePriceOption" Category="Field" Description="nchar(4)" Label="typePriceOption" />
+    <Node Id="dbo.OrderItemResource" Category="Table" Bounds="1288.035,80,169.426666666667,25" Group="Collapsed" Label="dbo.OrderItemResource" />
+    <Node Id="dbo.OrderItemResource_idOrderItem" Category="Field Primary" Description="bigint" Label="idOrderItem" />
+    <Node Id="dbo.OrderItemResource_idResource" Category="Field Primary" Description="bigint" Label="idResource" />
+    <Node Id="dbo.OrderItemResource_idSession" Category="Field Primary" Description="bigint" Label="idSession" />
+    <Node Id="dbo.OrderItemResource_quantityAssign" Category="Field" Description="smallint" Label="quantityAssign" />
+    <Node Id="dbo.OrderItemSession" Category="Table" Bounds="2310.53166666667,135,160.433333333333,25" Group="Collapsed" Label="dbo.OrderItemSession" />
+    <Node Id="dbo.OrderItemSession_idOrderItem" Category="Field Primary" Description="bigint" Label="idOrderItem" />
+    <Node Id="dbo.OrderItemSession_idSession" Category="Field Primary" Description="bigint" Label="idSession" />
+    <Node Id="dbo.OrderItemSession_idSpotPickup" Category="Field" Description="bigint" Label="idSpotPickup" />
+    <Node Id="dbo.OrderItemSession_isCheckin" Category="Field" Description="bit" Label="isCheckin" />
+    <Node Id="dbo.OrderItemSession_quantityUsed" Category="Field" Description="smallint" Label="quantityUsed" />
+    <Node Id="dbo.OrderItemSession_timePickup" Category="Field" Description="nvarchar(16)" Label="timePickup" />
+    <Node Id="dbo.OrderItem_amountExtra" Category="Field" Description="bigint" Label="amountExtra" />
+    <Node Id="dbo.OrderItem_amountOrder" Category="Field" Description="bigint" Label="amountOrder" />
+    <Node Id="dbo.OrderItem_amountSurcharge" Category="Field" Description="bigint" Label="amountSurcharge" />
+    <Node Id="dbo.OrderItem_commission" Category="Field" Description="bigint" Label="commission" />
+    <Node Id="dbo.OrderItem_datetimeFinish" Category="Field" Description="datetime" Label="datetimeFinish" />
+    <Node Id="dbo.OrderItem_datetimeStart" Category="Field" Description="datetime" Label="datetimeStart" />
+    <Node Id="dbo.OrderItem_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.OrderItem_idOrder" Category="Field Foreign" Description="bigint" Label="idOrder" />
+    <Node Id="dbo.OrderItem_idProduct" Category="Field Foreign" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.OrderItem_idSesstion" Category="Field Foreign" Description="bigint" Label="idSesstion" />
+    <Node Id="dbo.OrderItem_quantityExtra" Category="Field" Description="smallint" Label="quantityExtra" />
+    <Node Id="dbo.OrderItem_quantityOrder" Category="Field" Description="smallint" Label="quantityOrder" />
+    <Node Id="dbo.OrderItem_quantityUsed" Category="Field" Description="smallint" Label="quantityUsed" />
+    <Node Id="dbo.OrderItem_totalAmount" Category="Field" Description="bigint" Label="totalAmount" />
+    <Node Id="dbo.OrderItem_typeStatus" Category="Field" Description="nchar(4)" Label="typeStatus" />
+    <Node Id="dbo.Order_commentAgent" Category="Field Optional" Description="nvarchar(2000)" Label="commentAgent" />
+    <Node Id="dbo.Order_commentCustomer" Category="Field Optional" Description="nvarchar(2000)" Label="commentCustomer" />
+    <Node Id="dbo.Order_commentSupplier" Category="Field Optional" Description="nvarchar(2000)" Label="commentSupplier" />
+    <Node Id="dbo.Order_commentTripBox" Category="Field Optional" Description="nvarchar(2000)" Label="commentTripBox" />
+    <Node Id="dbo.Order_datetimeConfirmed" Category="Field" Description="datetime" Label="datetimeConfirmed" />
+    <Node Id="dbo.Order_datetimeCreated" Category="Field" Description="datetime" Label="datetimeCreated" />
+    <Node Id="dbo.Order_datetimePaid" Category="Field" Description="datetime" Label="datetimePaid" />
+    <Node Id="dbo.Order_datetimeUpdated" Category="Field" Description="datetime" Label="datetimeUpdated" />
+    <Node Id="dbo.Order_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Order_isFullpay" Category="Field" Description="bit" Label="isFullpay" />
+    <Node Id="dbo.Order_isSendCheckin" Category="Field" Description="bit" Label="isSendCheckin" />
+    <Node Id="dbo.Order_isSendPayment" Category="Field" Description="bit" Label="isSendPayment" />
+    <Node Id="dbo.Order_listTypePayment" Category="Field" Description="ntext" Label="listTypePayment" />
+    <Node Id="dbo.Order_refererSource" Category="Field Optional" Description="nvarchar(1000)" Label="refererSource" />
+    <Node Id="dbo.Order_totalDiscount" Category="Field" Description="bigint" Label="totalDiscount" />
+    <Node Id="dbo.Order_totalDue" Category="Field" Description="bigint" Label="totalDue" />
+    <Node Id="dbo.Order_totalOrder" Category="Field" Description="bigint" Label="totalOrder" />
+    <Node Id="dbo.Order_totalPaid" Category="Field" Description="bigint" Label="totalPaid" />
+    <Node Id="dbo.Order_totalSale" Category="Field" Description="bigint" Label="totalSale" />
+    <Node Id="dbo.Order_typeCustomer" Category="Field" Description="nchar(4)" Label="typeCustomer" />
+    <Node Id="dbo.Order_typeOrder" Category="Field" Description="nchar(4)" Label="typeOrder" />
+    <Node Id="dbo.Order_typeSource" Category="Field" Description="nchar(4)" Label="typeSource" />
+    <Node Id="dbo.Package" Category="Table" Bounds="2178.265,245,108.966666666667,25" Group="Collapsed" Label="dbo.Package" />
+    <Node Id="dbo.PackageSession" Category="Table" Bounds="2210.05833333333,190,149.38,25" Group="Collapsed" Label="dbo.PackageSession" />
+    <Node Id="dbo.PackageSession_idProduct" Category="Field Primary" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.PackageSession_idProductPart" Category="Field Primary" Description="bigint" Label="idProductPart" />
+    <Node Id="dbo.PackageSession_idSessionPart" Category="Field Primary" Description="bigint" Label="idSessionPart" />
+    <Node Id="dbo.Package_day" Category="Field" Description="smallint" Label="day" />
+    <Node Id="dbo.Package_idProduct" Category="Field Primary" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.Package_idProductPart" Category="Field Primary" Description="bigint" Label="idProductPart" />
+    <Node Id="dbo.Package_isAllday" Category="Field" Description="bit" Label="isAllday" />
+    <Node Id="dbo.Package_timeFinish" Category="Field" Description="nvarchar(16)" Label="timeFinish" />
+    <Node Id="dbo.Package_timeStart" Category="Field" Description="nvarchar(16)" Label="timeStart" />
+    <Node Id="dbo.Package_typeProduct" Category="Field" Description="nchar(4)" Label="typeProduct" />
+    <Node Id="dbo.Party" Category="Table" Bounds="891.933333333333,465,91.63,25" Group="Collapsed" Label="dbo.Party" />
+    <Node Id="dbo.PartyAccount" Category="Table" Bounds="715.71,410,136.076666666667,25" Group="Collapsed" Label="dbo.PartyAccount" />
+    <Node Id="dbo.PartyAccount_accountName" Category="Field" Description="nvarchar(20)" Label="accountName" />
+    <Node Id="dbo.PartyAccount_accountNo" Category="Field" Description="nvarchar(20)" Label="accountNo" />
+    <Node Id="dbo.PartyAccount_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.PartyAccount_idPartyFinance" Category="Field" Description="bigint" Label="idPartyFinance" />
+    <Node Id="dbo.PartyAccount_idPartyHolder" Category="Field Foreign" Description="bigint" Label="idPartyHolder" />
+    <Node Id="dbo.PartyAccount_typeAccount" Category="Field" Description="nchar(4)" Label="typeAccount" />
+    <Node Id="dbo.PartyAccount_typeFinance" Category="Field" Description="nchar(4)" Label="typeFinance" />
+    <Node Id="dbo.PartyContact" Category="Table" Bounds="1138.96833333333,410,133.56,25" Group="Collapsed" Label="dbo.PartyContact" />
+    <Node Id="dbo.PartyContact_contact" Category="Field" Description="nvarchar(200)" Label="contact" />
+    <Node Id="dbo.PartyContact_idParty" Category="Field Primary" Description="bigint" Label="idParty" />
+    <Node Id="dbo.PartyContact_typeContact" Category="Field Primary" Description="nchar(4)" Label="typeContact" />
+    <Node Id="dbo.PartyRelation" Category="Table" Bounds="282.856666666667,410,135.783333333333,25" Group="Collapsed" Label="dbo.PartyRelation" />
+    <Node Id="dbo.PartyRelation_idParty1" Category="Field Primary" Description="bigint" Label="idParty1" />
+    <Node Id="dbo.PartyRelation_idParty2" Category="Field Primary" Description="bigint" Label="idParty2" />
+    <Node Id="dbo.PartyRelation_typeRelation" Category="Field Primary" Description="nchar(4)" Label="typeRelation" />
+    <Node Id="dbo.Party_companyAlias" Category="Field Optional" Description="nvarchar(100)" Label="companyAlias" />
+    <Node Id="dbo.Party_dateBirth" Category="Field Optional" Description="datetime" Label="dateBirth" />
+    <Node Id="dbo.Party_gender" Category="Field Optional" Description="nchar(4)" Label="gender" />
+    <Node Id="dbo.Party_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Party_nameCompany" Category="Field Optional" Description="nvarchar(100)" Label="nameCompany" />
+    <Node Id="dbo.Party_nameFirst" Category="Field Optional" Description="nvarchar(100)" Label="nameFirst" />
+    <Node Id="dbo.Party_nameLast" Category="Field Optional" Description="nvarchar(100)" Label="nameLast" />
+    <Node Id="dbo.Party_title" Category="Field Optional" Description="nvarchar(100)" Label="title" />
+    <Node Id="dbo.Party_typeParty" Category="Field" Description="nchar(4)" Label="typeParty" />
+    <Node Id="dbo.Payment" Category="Table" Bounds="3737.095,355,111.306666666667,25" Group="Collapsed" Label="dbo.Payment" />
+    <Node Id="dbo.PaymentOrder" Category="Table" Bounds="3721.38833333333,300,142.72,25" Group="Collapsed" Label="dbo.PaymentOrder" />
+    <Node Id="dbo.PaymentOrder_amount" Category="Field" Description="bigint" Label="amount" />
+    <Node Id="dbo.PaymentOrder_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.PaymentOrder_idOrder" Category="Field Foreign" Description="bigint" Label="idOrder" />
+    <Node Id="dbo.PaymentOrder_idPayment" Category="Field Foreign" Description="bigint" Label="idPayment" />
+    <Node Id="dbo.Payment_amount" Category="Field" Description="bigint" Label="amount" />
+    <Node Id="dbo.Payment_datePayment" Category="Field" Description="datetime" Label="datePayment" />
+    <Node Id="dbo.Payment_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Payment_note" Category="Field Optional" Description="nvarchar(1000)" Label="note" />
+    <Node Id="dbo.Payment_typePayment" Category="Field" Description="nchar(4)" Label="typePayment" />
+    <Node Id="dbo.Payment_typeReceipt" Category="Field" Description="nchar(4)" Label="typeReceipt" />
+    <Node Id="dbo.Pickup" Category="Table" Bounds="1302.78,410,99.9366666666667,25" Group="Collapsed" Label="dbo.Pickup" />
+    <Node Id="dbo.PickupSpot" Category="Table" Bounds="1026.255,300,124.986666666667,25" Group="Collapsed" Label="dbo.PickupSpot" />
+    <Node Id="dbo.PickupSpot_idPickup" Category="Field Primary" Description="bigint" Label="idPickup" />
+    <Node Id="dbo.PickupSpot_idSpot" Category="Field Primary" Description="bigint" Label="idSpot" />
+    <Node Id="dbo.PickupSpot_minutePrior" Category="Field" Description="smallint" Label="minutePrior" />
+    <Node Id="dbo.PickupSpot_name" Category="Field" Description="nvarchar(100)" Label="name" />
+    <Node Id="dbo.PickupSpot_noteInstruction" Category="Field Optional" Description="nvarchar(1000)" Label="noteInstruction" />
+    <Node Id="dbo.PickupSpot_seq" Category="Field" Description="smallint" Label="seq" />
+    <Node Id="dbo.Pickup_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Pickup_idSpotEnd" Category="Field Optional" Description="bigint" Label="idSpotEnd" />
+    <Node Id="dbo.Pickup_idSpotStart" Category="Field Optional" Description="bigint" Label="idSpotStart" />
+    <Node Id="dbo.Pickup_idSupplier" Category="Field" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.Pickup_isAdditionalNote" Category="Field" Description="bit" Label="isAdditionalNote" />
+    <Node Id="dbo.Pickup_isAllowRequest" Category="Field" Description="bit" Label="isAllowRequest" />
+    <Node Id="dbo.Pickup_miniteDuration" Category="Field" Description="smallint" Label="miniteDuration" />
+    <Node Id="dbo.Pickup_name" Category="Field" Description="nvarchar(100)" Label="name" />
+    <Node Id="dbo.Pickup_noteAdditional" Category="Field Optional" Description="nvarchar(1000)" Label="noteAdditional" />
+    <Node Id="dbo.Pickup_noteRequest" Category="Field Optional" Description="nvarchar(1000)" Label="noteRequest" />
+    <Node Id="dbo.PriceOption" Category="Table" Bounds="1565.70166666667,300,128.093333333333,25" Group="Collapsed" Label="dbo.PriceOption" />
+    <Node Id="dbo.PriceOption_cost" Category="Field" Description="bigint" Label="cost" />
+    <Node Id="dbo.PriceOption_idProduct" Category="Field Primary" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.PriceOption_idResource" Category="Field Foreign" Description="bigint" Label="idResource" />
+    <Node Id="dbo.PriceOption_isGroup" Category="Field" Description="bit" Label="isGroup" />
+    <Node Id="dbo.PriceOption_note" Category="Field" Description="nvarchar(1000)" Label="note" />
+    <Node Id="dbo.PriceOption_price" Category="Field" Description="bigint" Label="price" />
+    <Node Id="dbo.PriceOption_quantityMax" Category="Field" Description="smallint" Label="quantityMax" />
+    <Node Id="dbo.PriceOption_quantitytUnit" Category="Field" Description="smallint" Label="quantitytUnit" />
+    <Node Id="dbo.PriceOption_rateMarketplace" Category="Field" Description="numeric(12,2)" Label="rateMarketplace" />
+    <Node Id="dbo.PriceOption_typePriceOption" Category="Field Primary" Description="nchar(4)" Label="typePriceOption" />
+    <Node Id="dbo.Product" Category="Table" Bounds="2179.49833333333,355,106.5,25" Group="Collapsed" Label="dbo.Product" />
+    <Node Id="dbo.ProductCategory" Category="Table" Bounds="1724.005,300,155.486666666667,25" Group="Collapsed" Label="dbo.ProductCategory" />
+    <Node Id="dbo.ProductCategory_idCategory" Category="Field Primary" Description="bigint" Label="idCategory" />
+    <Node Id="dbo.ProductCategory_idProduct" Category="Field Primary" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.ProductExtra" Category="Table" Bounds="3343.29666666667,300,132.903333333333,25" Group="Collapsed" Label="dbo.ProductExtra" />
+    <Node Id="dbo.ProductExtra_idExtra" Category="Field Primary" Description="bigint" Label="idExtra" />
+    <Node Id="dbo.ProductExtra_idProduct" Category="Field Primary" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.ProductExtra_seq" Category="Field" Description="smallint" Label="seq" />
+    <Node Id="dbo.ProductField" Category="Table" Bounds="2984.73,300,132.036666666667,25" Group="Collapsed" Label="dbo.ProductField" />
+    <Node Id="dbo.ProductField_idField" Category="Field Primary" Description="bigint" Label="idField" />
+    <Node Id="dbo.ProductField_idProduct" Category="Field Primary" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.ProductField_valueProduct" Category="Field" Description="ntext" Label="valueProduct" />
+    <Node Id="dbo.ProductImage" Category="Table" Bounds="2061.655,300,140.186666666666,25" Group="Collapsed" Label="dbo.ProductImage" />
+    <Node Id="dbo.ProductImage_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.ProductImage_idProduct" Category="Field Foreign" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.ProductImage_isDefault" Category="Field" Description="bit" Label="isDefault" />
+    <Node Id="dbo.ProductImage_seq" Category="Field" Description="smallint" Label="seq" />
+    <Node Id="dbo.ProductImage_urlImageFull" Category="Field" Description="nvarchar(200)" Label="urlImageFull" />
+    <Node Id="dbo.ProductImage_urlImageLarge" Category="Field" Description="nvarchar(200)" Label="urlImageLarge" />
+    <Node Id="dbo.ProductImage_urlImageMedium" Category="Field" Description="nvarchar(200)" Label="urlImageMedium" />
+    <Node Id="dbo.ProductImage_urlImageSmall" Category="Field" Description="nvarchar(200)" Label="urlImageSmall" />
+    <Node Id="dbo.ProductNego" Category="Table" Bounds="46.4899999999998,355,136.516666666667,25" Group="Collapsed" Label="dbo.ProductNego" />
+    <Node Id="dbo.ProductNego_idAgent" Category="Field Primary" Description="bigint" Label="idAgent" />
+    <Node Id="dbo.ProductNego_idProduct" Category="Field Primary" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.ProductNego_idSupplier" Category="Field Primary" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.ProductNego_nameNego" Category="Field Primary" Description="nvarchar(100)" Label="nameNego" />
+    <Node Id="dbo.ProductNego_rateComm" Category="Field" Description="numeric(12,2)" Label="rateComm" />
+    <Node Id="dbo.ProductNego_typePriceOption" Category="Field Primary" Description="nchar(4)" Label="typePriceOption" />
+    <Node Id="dbo.ProductPrice" Category="Table" Bounds="2421.42666666667,190,132.643333333333,25" Group="Collapsed" Label="dbo.ProductPrice" />
+    <Node Id="dbo.ProductPrice_cost" Category="Field" Description="bigint" Label="cost" />
+    <Node Id="dbo.ProductPrice_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.ProductPrice_idProduct" Category="Field" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.ProductPrice_idSession" Category="Field Foreign" Description="bigint" Label="idSession" />
+    <Node Id="dbo.ProductPrice_price" Category="Field" Description="bigint" Label="price" />
+    <Node Id="dbo.ProductPrice_quantityMax" Category="Field" Description="smallint" Label="quantityMax" />
+    <Node Id="dbo.ProductPrice_quantityOrder" Category="Field" Description="smallint" Label="quantityOrder" />
+    <Node Id="dbo.ProductPrice_typePriceOption" Category="Field" Description="nchar(4)" Label="typePriceOption" />
+    <Node Id="dbo.ProductRelated" Category="Table" Bounds="2264.13833333333,300,147.22,25" Group="Collapsed" Label="dbo.ProductRelated" />
+    <Node Id="dbo.ProductRelated_idProduct1" Category="Field Primary" Description="bigint" Label="idProduct1" />
+    <Node Id="dbo.ProductRelated_idProduct2" Category="Field Primary" Description="bigint" Label="idProduct2" />
+    <Node Id="dbo.ProductSession" Category="Table" Bounds="2317.29166666667,245,146.913333333333,25" Group="Collapsed" Label="dbo.ProductSession" />
+    <Node Id="dbo.ProductSession_datetimeFinish" Category="Field" Description="datetime" Label="datetimeFinish" />
+    <Node Id="dbo.ProductSession_datetimeStart" Category="Field" Description="datetime" Label="datetimeStart" />
+    <Node Id="dbo.ProductSession_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.ProductSession_idTemplate" Category="Field Foreign" Description="bigint" Label="idTemplate" />
+    <Node Id="dbo.ProductSession_isAllday" Category="Field" Description="bit" Label="isAllday" />
+    <Node Id="dbo.ProductSession_quantityMax" Category="Field" Description="smallint" Label="quantityMax" />
+    <Node Id="dbo.ProductSession_quantityUsed" Category="Field" Description="smallint" Label="quantityUsed" />
+    <Node Id="dbo.ProductSession_timetypeDuration" Category="Field Optional" Description="nchar(4)" Label="timetypeDuration" />
+    <Node Id="dbo.ProductSession_valueDuration" Category="Field" Description="smallint" Label="valueDuration" />
+    <Node Id="dbo.ProductSpot" Category="Table" Bounds="1403.97333333333,300,131.55,25" Group="Collapsed" Label="dbo.ProductSpot" />
+    <Node Id="dbo.ProductSpot_idProduct" Category="Field Primary" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.ProductSpot_idSpot" Category="Field Primary" Description="bigint" Label="idSpot" />
+    <Node Id="dbo.ProductSpot_seq" Category="Field Primary" Description="smallint" Label="seq" />
+    <Node Id="dbo.ProductSpot_typeService" Category="Field Optional" Description="nchar(4)" Label="typeService" />
+    <Node Id="dbo.ProductSurcharge" Category="Table" Bounds="1181.27666666667,300,160.943333333333,25" Group="Collapsed" Label="dbo.ProductSurcharge" />
+    <Node Id="dbo.ProductSurcharge_idProduct" Category="Field Primary" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.ProductSurcharge_idSurcharge" Category="Field Foreign" Description="bigint" Label="idSurcharge" />
+    <Node Id="dbo.ProductSurcharge_seq" Category="Field" Description="smallint" Label="seq" />
+    <Node Id="dbo.ProductTag" Category="Table" Bounds="2827.565,300,126.366666666667,25" Group="Collapsed" Label="dbo.ProductTag" />
+    <Node Id="dbo.ProductTag_idProduct" Category="Field Primary" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.ProductTag_tag" Category="Field Primary" Description="nvarchar(100)" Label="tag" />
+    <Node Id="dbo.ProductTag_typeTag" Category="Field Primary" Description="nchar(4)" Label="typeTag" />
+    <Node Id="dbo.ProductVideo" Category="Table" Bounds="2627.79833333333,300,137.9,25" Group="Collapsed" Label="dbo.ProductVideo" />
+    <Node Id="dbo.ProductVideo_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.ProductVideo_idProduct" Category="Field Foreign" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.ProductVideo_isDefault" Category="Field" Description="bit" Label="isDefault" />
+    <Node Id="dbo.ProductVideo_seq" Category="Field" Description="smallint" Label="seq" />
+    <Node Id="dbo.ProductVideo_typePlatform" Category="Field" Description="nchar(4)" Label="typePlatform" />
+    <Node Id="dbo.ProductVideo_urlVideo" Category="Field" Description="nvarchar(200)" Label="urlVideo" />
+    <Node Id="dbo.Product_codeProduct" Category="Field" Description="nvarchar(20)" Label="codeProduct" />
+    <Node Id="dbo.Product_dayMinPayment" Category="Field" Description="smallint" Label="dayMinPayment" />
+    <Node Id="dbo.Product_descriptionLong" Category="Field" Description="nvarchar(4000)" Label="descriptionLong" />
+    <Node Id="dbo.Product_descriptionShort" Category="Field" Description="nvarchar(1000)" Label="descriptionShort" />
+    <Node Id="dbo.Product_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Product_idPickup" Category="Field Foreign" Description="bigint" Label="idPickup" />
+    <Node Id="dbo.Product_idSpotFinish" Category="Field" Description="bigint" Label="idSpotFinish" />
+    <Node Id="dbo.Product_idSpotStart" Category="Field" Description="bigint" Label="idSpotStart" />
+    <Node Id="dbo.Product_idSupplier" Category="Field" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.Product_isAllday" Category="Field" Description="bit" Label="isAllday" />
+    <Node Id="dbo.Product_isAllowWaiting" Category="Field" Description="bit" Label="isAllowWaiting" />
+    <Node Id="dbo.Product_isIncludeExtra" Category="Field" Description="bit" Label="isIncludeExtra" />
+    <Node Id="dbo.Product_isMinPayment" Category="Field" Description="bit" Label="isMinPayment" />
+    <Node Id="dbo.Product_isPart" Category="Field" Description="bit" Label="isPart" />
+    <Node Id="dbo.Product_isPaymentFull" Category="Field" Description="bit" Label="isPaymentFull" />
+    <Node Id="dbo.Product_isShowSeat" Category="Field" Description="bit" Label="isShowSeat" />
+    <Node Id="dbo.Product_isSpecialPayment" Category="Field" Description="bit" Label="isSpecialPayment" />
+    <Node Id="dbo.Product_isSpecialRule" Category="Field" Description="bit" Label="isSpecialRule" />
+    <Node Id="dbo.Product_listCity" Category="Field Optional" Description="ntext" Label="listCity" />
+    <Node Id="dbo.Product_listSpot" Category="Field Optional" Description="ntext" Label="listSpot" />
+    <Node Id="dbo.Product_listTime" Category="Field Optional" Description="ntext" Label="listTime" />
+    <Node Id="dbo.Product_name" Category="Field" Description="nvarchar(100)" Label="name" />
+    <Node Id="dbo.Product_note" Category="Field Optional" Description="nvarchar(1000)" Label="note" />
+    <Node Id="dbo.Product_priceAdvertise" Category="Field" Description="bigint" Label="priceAdvertise" />
+    <Node Id="dbo.Product_productColor" Category="Field" Description="nvarchar(10)" Label="productColor" />
+    <Node Id="dbo.Product_quantityAfter" Category="Field" Description="smallint" Label="quantityAfter" />
+    <Node Id="dbo.Product_quantityLabel" Category="Field" Description="nvarchar(100)" Label="quantityLabel" />
+    <Node Id="dbo.Product_quantityLabelPlural" Category="Field" Description="nvarchar(100)" Label="quantityLabelPlural" />
+    <Node Id="dbo.Product_quantityMaxOrder" Category="Field" Description="smallint" Label="quantityMaxOrder" />
+    <Node Id="dbo.Product_quantityMinOrder" Category="Field" Description="smallint" Label="quantityMinOrder" />
+    <Node Id="dbo.Product_quantityMinSession" Category="Field" Description="smallint" Label="quantityMinSession" />
+    <Node Id="dbo.Product_rateDeposit" Category="Field" Description="numeric(12,2)" Label="rateDeposit" />
+    <Node Id="dbo.Product_timeTypeDuration" Category="Field" Description="nchar(4)" Label="timeTypeDuration" />
+    <Node Id="dbo.Product_timeTypeMiniumNotice" Category="Field" Description="nchar(4)" Label="timeTypeMiniumNotice" />
+    <Node Id="dbo.Product_typeConfirm" Category="Field" Description="nchar(4)" Label="typeConfirm" />
+    <Node Id="dbo.Product_typeDepoist" Category="Field Optional" Description="nchar(4)" Label="typeDepoist" />
+    <Node Id="dbo.Product_typeInventory" Category="Field Optional" Description="nchar(4)" Label="typeInventory" />
+    <Node Id="dbo.Product_typeProduct" Category="Field" Description="nchar(4)" Label="typeProduct" />
+    <Node Id="dbo.Product_typeSessionSchedule" Category="Field" Description="nchar(4)" Label="typeSessionSchedule" />
+    <Node Id="dbo.Product_valueDuration" Category="Field" Description="smallint" Label="valueDuration" />
+    <Node Id="dbo.Product_valueMiniumNotice" Category="Field" Description="smallint" Label="valueMiniumNotice" />
+    <Node Id="dbo.Product_valueSpecialRule" Category="Field Optional" Description="ntext" Label="valueSpecialRule" />
+    <Node Id="dbo.Promotion" Category="Table" Bounds="1910,300,121.496666666667,25" Group="Collapsed" Label="dbo.Promotion" />
+    <Node Id="dbo.Promotion_amountLimit" Category="Field" Description="bigint" Label="amountLimit" />
+    <Node Id="dbo.Promotion_amountMin" Category="Field" Description="bigint" Label="amountMin" />
+    <Node Id="dbo.Promotion_codePromotion" Category="Field Primary" Description="nvarchar(10)" Label="codePromotion" />
+    <Node Id="dbo.Promotion_dateOrderEnd" Category="Field" Description="datetime" Label="dateOrderEnd" />
+    <Node Id="dbo.Promotion_dateOrderStart" Category="Field" Description="datetime" Label="dateOrderStart" />
+    <Node Id="dbo.Promotion_dateSessionEnd" Category="Field" Description="datetime" Label="dateSessionEnd" />
+    <Node Id="dbo.Promotion_dateSessionStart" Category="Field" Description="datetime" Label="dateSessionStart" />
+    <Node Id="dbo.Promotion_idCategory" Category="Field Optional" Description="bigint" Label="idCategory" />
+    <Node Id="dbo.Promotion_idProduct" Category="Field Foreign" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.Promotion_isIncludeExtra" Category="Field" Description="bit" Label="isIncludeExtra" />
+    <Node Id="dbo.Promotion_isIncludeSurcharge" Category="Field" Description="bit" Label="isIncludeSurcharge" />
+    <Node Id="dbo.Promotion_isLimitTotal" Category="Field" Description="bit" Label="isLimitTotal" />
+    <Node Id="dbo.Promotion_ratePromotion" Category="Field" Description="numeric(12,2)" Label="ratePromotion" />
+    <Node Id="dbo.Promotion_typeApply" Category="Field Optional" Description="nchar(4)" Label="typeApply" />
+    <Node Id="dbo.Promotion_typeApplyProduct" Category="Field Optional" Description="nchar(4)" Label="typeApplyProduct" />
+    <Node Id="dbo.Purchage" Category="Table" Bounds="3647.35833333333,410,114.78,25" Group="Collapsed" Label="dbo.Purchage" />
+    <Node Id="dbo.PurchageDetail" Category="Table" Bounds="3878.70166666667,355,146.093333333333,25" Group="Collapsed" Label="dbo.PurchageDetail" />
+    <Node Id="dbo.PurchageDetail_amountPurchage" Category="Field" Description="bigint" Label="amountPurchage" />
+    <Node Id="dbo.PurchageDetail_cost" Category="Field" Description="bigint" Label="cost" />
+    <Node Id="dbo.PurchageDetail_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.PurchageDetail_idPurchage" Category="Field Foreign" Description="bigint" Label="idPurchage" />
+    <Node Id="dbo.PurchageDetail_idSession" Category="Field Foreign" Description="bigint" Label="idSession" />
+    <Node Id="dbo.PurchageDetail_note" Category="Field Optional" Description="nvarchar(1000)" Label="note" />
+    <Node Id="dbo.PurchageDetail_quantityPurchage" Category="Field" Description="smallint" Label="quantityPurchage" />
+    <Node Id="dbo.PurchageDetail_typeItem" Category="Field" Description="nchar(4)" Label="typeItem" />
+    <Node Id="dbo.PurchageDetail_typePayment" Category="Field" Description="nchar(4)" Label="typePayment" />
+    <Node Id="dbo.Purchage_companyPurchage" Category="Field Optional" Description="nvarchar(100)" Label="companyPurchage" />
+    <Node Id="dbo.Purchage_datePurchage" Category="Field" Description="datetime" Label="datePurchage" />
+    <Node Id="dbo.Purchage_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Purchage_idCompanyPurchase" Category="Field Foreign" Description="bigint" Label="idCompanyPurchase" />
+    <Node Id="dbo.Purchage_idSupplier" Category="Field" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.Purchage_note" Category="Field Optional" Description="nvarchar(1000)" Label="note" />
+    <Node Id="dbo.Purchage_totalPurchage" Category="Field" Description="bigint" Label="totalPurchage" />
+    <Node Id="dbo.Resource" Category="Table" Bounds="1315.92166666667,355,113.653333333333,25" Group="Collapsed" Label="dbo.Resource" />
+    <Node Id="dbo.Resource_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Resource_idSupplier" Category="Field" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.Resource_isLimitQuantity" Category="Field" Description="bit" Label="isLimitQuantity" />
+    <Node Id="dbo.Resource_name" Category="Field" Description="nvarchar(100)" Label="name" />
+    <Node Id="dbo.Resource_quantityMax" Category="Field" Description="smallint" Label="quantityMax" />
+    <Node Id="dbo.Resource_typeResource" Category="Field" Description="nchar(4)" Label="typeResource" />
+    <Node Id="dbo.Resource_typeShace" Category="Field" Description="nchar(4)" Label="typeShace" />
+    <Node Id="dbo.SessionOrdered" Category="Table" Bounds="3876.88833333333,465,149.72,25" Group="Collapsed" Label="dbo.SessionOrdered" />
+    <Node Id="dbo.SessionOrdered_amountExpense" Category="Field" Description="bigint" Label="amountExpense" />
+    <Node Id="dbo.SessionOrdered_amountProfit" Category="Field" Description="bigint" Label="amountProfit" />
+    <Node Id="dbo.SessionOrdered_amountSale" Category="Field" Description="bigint" Label="amountSale" />
+    <Node Id="dbo.SessionOrdered_commAgent" Category="Field" Description="bigint" Label="commAgent" />
+    <Node Id="dbo.SessionOrdered_commOperation" Category="Field" Description="bigint" Label="commOperation" />
+    <Node Id="dbo.SessionOrdered_datetimeFinish" Category="Field" Description="datetime" Label="datetimeFinish" />
+    <Node Id="dbo.SessionOrdered_datetimeStart" Category="Field" Description="datetime" Label="datetimeStart" />
+    <Node Id="dbo.SessionOrdered_idProduct" Category="Field" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.SessionOrdered_idSessionPart" Category="Field Primary" Description="bigint" Label="idSessionPart" />
+    <Node Id="dbo.SessionOrdered_quantityUsed" Category="Field" Description="smallint" Label="quantityUsed" />
+    <Node Id="dbo.SessionResource" Category="Table" Bounds="1295.715,190,154.066666666667,25" Group="Collapsed" Label="dbo.SessionResource" />
+    <Node Id="dbo.SessionResource_idResource" Category="Field Primary" Description="bigint" Label="idResource" />
+    <Node Id="dbo.SessionResource_idSession" Category="Field Primary" Description="bigint" Label="idSession" />
+    <Node Id="dbo.SessionResource_quantityMax" Category="Field" Description="smallint" Label="quantityMax" />
+    <Node Id="dbo.SessionResource_quantityUsed" Category="Field" Description="smallint" Label="quantityUsed" />
+    <Node Id="dbo.SessionRole" Category="Table" Bounds="3792.475,410,128.546666666667,25" Group="Collapsed" Label="dbo.SessionRole" />
+    <Node Id="dbo.SessionRole_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.SessionRole_idParty" Category="Field Foreign" Description="bigint" Label="idParty" />
+    <Node Id="dbo.SessionRole_idSessionPart" Category="Field Foreign" Description="bigint" Label="idSessionPart" />
+    <Node Id="dbo.SessionRole_typeRole" Category="Field" Description="nchar(4)" Label="typeRole" />
+    <Node Id="dbo.SessionTemplate" Category="Table" Bounds="2442.245,300,155.006666666667,25" Group="Collapsed" Label="dbo.SessionTemplate" />
+    <Node Id="dbo.SessionTemplateWeek" Category="Table" Bounds="2495.065,245,185.366666666667,25" Group="Collapsed" Label="dbo.SessionTemplateWeek" />
+    <Node Id="dbo.SessionTemplateWeek_idTemplate" Category="Field Primary" Description="bigint" Label="idTemplate" />
+    <Node Id="dbo.SessionTemplateWeek_timeEnd" Category="Field" Description="nvarchar(16)" Label="timeEnd" />
+    <Node Id="dbo.SessionTemplateWeek_timeStart" Category="Field" Description="nvarchar(16)" Label="timeStart" />
+    <Node Id="dbo.SessionTemplateWeek_weekdayNo" Category="Field Primary" Description="smallint" Label="weekdayNo" />
+    <Node Id="dbo.SessionTemplate_dateRepeatEnd" Category="Field" Description="datetime" Label="dateRepeatEnd" />
+    <Node Id="dbo.SessionTemplate_dateRepeatStart" Category="Field" Description="datetime" Label="dateRepeatStart" />
+    <Node Id="dbo.SessionTemplate_datetimeFinish" Category="Field" Description="datetime" Label="datetimeFinish" />
+    <Node Id="dbo.SessionTemplate_datetimeStart" Category="Field" Description="datetime" Label="datetimeStart" />
+    <Node Id="dbo.SessionTemplate_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.SessionTemplate_idProduct" Category="Field Foreign" Description="bigint" Label="idProduct" />
+    <Node Id="dbo.SessionTemplate_minuteDuration" Category="Field" Description="smallint" Label="minuteDuration" />
+    <Node Id="dbo.SessionTemplate_timetypeRepeat" Category="Field" Description="nchar(4)" Label="timetypeRepeat" />
+    <Node Id="dbo.SessionTemplate_valueRepeat" Category="Field" Description="smallint" Label="valueRepeat" />
+    <Node Id="dbo.Spot" Category="Table" Bounds="1164.1,355,89.2966666666666,25" Group="Collapsed" Label="dbo.Spot" />
+    <Node Id="dbo.Spot_address1" Category="Field Optional" Description="nvarchar(100)" Label="address1" />
+    <Node Id="dbo.Spot_address2" Category="Field Optional" Description="nvarchar(100)" Label="address2" />
+    <Node Id="dbo.Spot_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Spot_idCity" Category="Field Foreign" Description="bigint" Label="idCity" />
+    <Node Id="dbo.Spot_latitude" Category="Field" Description="nvarchar(20)" Label="latitude" />
+    <Node Id="dbo.Spot_longitude" Category="Field" Description="nvarchar(20)" Label="longitude" />
+    <Node Id="dbo.Spot_name" Category="Field Optional" Description="nvarchar(100)" Label="name" />
+    <Node Id="dbo.Spot_postcode" Category="Field Optional" Description="nvarchar(10)" Label="postcode" />
+    <Node Id="dbo.Spot_typeSpot" Category="Field" Description="nchar(4)" Label="typeSpot" />
+    <Node Id="dbo.Supplier" Category="Table" Bounds="576.405,410,108.686666666667,25" Group="Collapsed" Label="dbo.Supplier" />
+    <Node Id="dbo.SupplierCity" Category="Table" Bounds="1004.095,355,129.306666666667,25" Group="Collapsed" Label="dbo.SupplierCity" />
+    <Node Id="dbo.SupplierCity_idCity" Category="Field Primary" Description="bigint" Label="idCity" />
+    <Node Id="dbo.SupplierCity_idSupplier" Category="Field Primary" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.SupplierPayment" Category="Table" Bounds="362.875,355,155.746666666667,25" Group="Collapsed" Label="dbo.SupplierPayment" />
+    <Node Id="dbo.SupplierPayment_idSupplier" Category="Field Primary" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.SupplierPayment_typePayment" Category="Field Primary" Description="nchar(4)" Label="typePayment" />
+    <Node Id="dbo.Supplier_businessNumber" Category="Field Optional" Description="nvarchar(20)" Label="businessNumber" />
+    <Node Id="dbo.Supplier_city" Category="Field Optional" Description="nvarchar(100)" Label="city" />
+    <Node Id="dbo.Supplier_continent" Category="Field Optional" Description="nvarchar(100)" Label="continent" />
+    <Node Id="dbo.Supplier_country" Category="Field Optional" Description="nvarchar(100)" Label="country" />
+    <Node Id="dbo.Supplier_currency" Category="Field Optional" Description="nchar(4)" Label="currency" />
+    <Node Id="dbo.Supplier_dayMinPayment" Category="Field" Description="smallint" Label="dayMinPayment" />
+    <Node Id="dbo.Supplier_description" Category="Field Optional" Description="nvarchar(2000)" Label="description" />
+    <Node Id="dbo.Supplier_email" Category="Field" Description="nvarchar(200)" Label="email" />
+    <Node Id="dbo.Supplier_fax" Category="Field Optional" Description="nvarchar(20)" Label="fax" />
+    <Node Id="dbo.Supplier_firstName" Category="Field" Description="nvarchar(100)" Label="firstName" />
+    <Node Id="dbo.Supplier_idSupplier" Category="Field Primary" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.Supplier_isExplicitConsent" Category="Field" Description="bit" Label="isExplicitConsent" />
+    <Node Id="dbo.Supplier_isIncludeOrderFee" Category="Field" Description="bit" Label="isIncludeOrderFee" />
+    <Node Id="dbo.Supplier_isMinPayment" Category="Field" Description="bit" Label="isMinPayment" />
+    <Node Id="dbo.Supplier_isPaymentFull" Category="Field" Description="bit" Label="isPaymentFull" />
+    <Node Id="dbo.Supplier_language" Category="Field Optional" Description="nchar(4)" Label="language" />
+    <Node Id="dbo.Supplier_lastName" Category="Field" Description="nvarchar(100)" Label="lastName" />
+    <Node Id="dbo.Supplier_latitude" Category="Field Optional" Description="nvarchar(20)" Label="latitude" />
+    <Node Id="dbo.Supplier_listCity" Category="Field Optional" Description="ntext" Label="listCity" />
+    <Node Id="dbo.Supplier_listTypePayment" Category="Field Optional" Description="ntext" Label="listTypePayment" />
+    <Node Id="dbo.Supplier_longitude" Category="Field Optional" Description="nvarchar(20)" Label="longitude" />
+    <Node Id="dbo.Supplier_mobile" Category="Field Optional" Description="nvarchar(20)" Label="mobile" />
+    <Node Id="dbo.Supplier_name" Category="Field" Description="nvarchar(100)" Label="name" />
+    <Node Id="dbo.Supplier_openingHours" Category="Field Optional" Description="nvarchar(1000)" Label="openingHours" />
+    <Node Id="dbo.Supplier_phone" Category="Field Optional" Description="nvarchar(20)" Label="phone" />
+    <Node Id="dbo.Supplier_postcode" Category="Field Optional" Description="nvarchar(10)" Label="postcode" />
+    <Node Id="dbo.Supplier_privacyPolicy" Category="Field Optional" Description="ntext" Label="privacyPolicy" />
+    <Node Id="dbo.Supplier_rateDeposit" Category="Field" Description="numeric(12,2)" Label="rateDeposit" />
+    <Node Id="dbo.Supplier_term" Category="Field Optional" Description="ntext" Label="term" />
+    <Node Id="dbo.Supplier_timezone" Category="Field Optional" Description="nchar(4)" Label="timezone" />
+    <Node Id="dbo.Supplier_typeBusiness" Category="Field Optional" Description="nchar(4)" Label="typeBusiness" />
+    <Node Id="dbo.Supplier_typeDepoist" Category="Field Optional" Description="nchar(4)" Label="typeDepoist" />
+    <Node Id="dbo.Supplier_urlFacebook" Category="Field Optional" Description="nvarchar(200)" Label="urlFacebook" />
+    <Node Id="dbo.Supplier_urlGoogle" Category="Field Optional" Description="nvarchar(200)" Label="urlGoogle" />
+    <Node Id="dbo.Supplier_urlHost" Category="Field Optional" Description="nvarchar(200)" Label="urlHost" />
+    <Node Id="dbo.Supplier_urlInstagram" Category="Field Optional" Description="nvarchar(200)" Label="urlInstagram" />
+    <Node Id="dbo.Supplier_urlLogo" Category="Field Optional" Description="nvarchar(200)" Label="urlLogo" />
+    <Node Id="dbo.Supplier_urlPinterest" Category="Field Optional" Description="nvarchar(200)" Label="urlPinterest" />
+    <Node Id="dbo.Supplier_urlTripadvisor" Category="Field Optional" Description="nvarchar(200)" Label="urlTripadvisor" />
+    <Node Id="dbo.Supplier_urlTwitter" Category="Field Optional" Description="nvarchar(200)" Label="urlTwitter" />
+    <Node Id="dbo.Supplier_urlWebsite" Category="Field Optional" Description="nvarchar(200)" Label="urlWebsite" />
+    <Node Id="dbo.Supplier_urlYoutube" Category="Field Optional" Description="nvarchar(200)" Label="urlYoutube" />
+    <Node Id="dbo.Supplier_weekStartNo" Category="Field" Description="smallint" Label="weekStartNo" />
+    <Node Id="dbo.Supplier_youtubeID" Category="Field Optional" Description="nvarchar(100)" Label="youtubeID" />
+    <Node Id="dbo.Surcharge" Category="Table" Bounds="213.403333333333,355,118.69,25" Group="Collapsed" Label="dbo.Surcharge" />
+    <Node Id="dbo.Surcharge_id" Category="Field Primary" Description="bigint" Label="id" />
+    <Node Id="dbo.Surcharge_idSupplier" Category="Field Foreign" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.Surcharge_label" Category="Field" Description="nvarchar(20)" Label="label" />
+    <Node Id="dbo.Surcharge_note" Category="Field Optional" Description="nvarchar(1000)" Label="note" />
+    <Node Id="dbo.Surcharge_rateSurcharge" Category="Field" Description="numeric(12,2)" Label="rateSurcharge" />
+    <Node Id="dbo.Surcharge_typeApply" Category="Field" Description="nchar(4)" Label="typeApply" />
+    <Node Id="dbo.Surcharge_typeSurcharge" Category="Field" Description="nchar(4)" Label="typeSurcharge" />
+    <Node Id="dbo.User" Category="Table" Bounds="885.478333333333,355,88.54,25" Group="Collapsed" Label="dbo.User" />
+    <Node Id="dbo.User_idParty" Category="Field Primary" Description="bigint" Label="idParty" />
+    <Node Id="dbo.User_idSupplier" Category="Field Primary" Description="bigint" Label="idSupplier" />
+    <Node Id="dbo.User_isAbandonCart" Category="Field" Description="bit" Label="isAbandonCart" />
+    <Node Id="dbo.User_isBouncedEmail" Category="Field" Description="bit" Label="isBouncedEmail" />
+    <Node Id="dbo.User_isMessage" Category="Field" Description="bit" Label="isMessage" />
+    <Node Id="dbo.User_isNewCompany" Category="Field" Description="bit" Label="isNewCompany" />
+    <Node Id="dbo.User_isOrderInternal" Category="Field" Description="bit" Label="isOrderInternal" />
+    <Node Id="dbo.User_isOrderOnline" Category="Field" Description="bit" Label="isOrderOnline" />
+    <Node Id="dbo.User_isViewCompany" Category="Field" Description="bit" Label="isViewCompany" />
+    <Node Id="dbo.User_isWeeklyReport" Category="Field" Description="bit" Label="isWeeklyReport" />
+    <Node Id="dbo.User_typeRole" Category="Field Optional" Description="nchar(4)" Label="typeRole" />
+  </Nodes>
+  <Links>
+    <Link Source="Database" Target="dbo" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Agent" Category="Contains" />
+    <Link Source="dbo" Target="dbo.BookingField" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Category" Category="Contains" />
+    <Link Source="dbo" Target="dbo.City" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Extra" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Field" Category="Contains" />
+    <Link Source="dbo" Target="dbo.MasterCode" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Member" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Message" Category="Contains" />
+    <Link Source="dbo" Target="dbo.MessageTemplate" Category="Contains" />
+    <Link Source="dbo" Target="dbo.NegotiatedRate" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Order" Category="Contains" />
+    <Link Source="dbo" Target="dbo.OrderField" Category="Contains" />
+    <Link Source="dbo" Target="dbo.OrderItem" Category="Contains" />
+    <Link Source="dbo" Target="dbo.OrderItemExtra" Category="Contains" />
+    <Link Source="dbo" Target="dbo.OrderItemField" Category="Contains" />
+    <Link Source="dbo" Target="dbo.OrderItemProduct" Category="Contains" />
+    <Link Source="dbo" Target="dbo.OrderItemResource" Category="Contains" />
+    <Link Source="dbo" Target="dbo.OrderItemSession" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Package" Category="Contains" />
+    <Link Source="dbo" Target="dbo.PackageSession" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Party" Category="Contains" />
+    <Link Source="dbo" Target="dbo.PartyAccount" Category="Contains" />
+    <Link Source="dbo" Target="dbo.PartyContact" Category="Contains" />
+    <Link Source="dbo" Target="dbo.PartyRelation" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Payment" Category="Contains" />
+    <Link Source="dbo" Target="dbo.PaymentOrder" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Pickup" Category="Contains" />
+    <Link Source="dbo" Target="dbo.PickupSpot" Category="Contains" />
+    <Link Source="dbo" Target="dbo.PriceOption" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Product" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductCategory" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductExtra" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductField" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductImage" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductNego" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductPrice" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductRelated" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductSession" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductSpot" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductSurcharge" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductTag" Category="Contains" />
+    <Link Source="dbo" Target="dbo.ProductVideo" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Promotion" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Purchage" Category="Contains" />
+    <Link Source="dbo" Target="dbo.PurchageDetail" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Resource" Category="Contains" />
+    <Link Source="dbo" Target="dbo.SessionOrdered" Category="Contains" />
+    <Link Source="dbo" Target="dbo.SessionResource" Category="Contains" />
+    <Link Source="dbo" Target="dbo.SessionRole" Category="Contains" />
+    <Link Source="dbo" Target="dbo.SessionTemplate" Category="Contains" />
+    <Link Source="dbo" Target="dbo.SessionTemplateWeek" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Spot" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Supplier" Category="Contains" />
+    <Link Source="dbo" Target="dbo.SupplierCity" Category="Contains" />
+    <Link Source="dbo" Target="dbo.SupplierPayment" Category="Contains" />
+    <Link Source="dbo" Target="dbo.Surcharge" Category="Contains" />
+    <Link Source="dbo" Target="dbo.User" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_address" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_codeAgent" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_companyBilling" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_email" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_emailBilling" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_idAgent" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_idSupplier" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_isEditOrder" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_isEditOrderPrice" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_isPrivate" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_nameAgent" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_nameFirst" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_nameLast" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_noteBill" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_rateComm" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_tel" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_typeAgent" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_typePayment" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_userBilling" Category="Contains" />
+    <Link Source="dbo.Agent" Target="dbo.Agent_website" Category="Contains" />
+    <Link Source="dbo.Agent_idAgent" Target="dbo.Party_id" Category="Foreign Key" Label="FK_Agent" />
+    <Link Source="dbo.BookingField" Target="dbo.BookingField_idField" Category="Contains" />
+    <Link Source="dbo.BookingField" Target="dbo.BookingField_idProduct" Category="Contains" />
+    <Link Source="dbo.BookingField" Target="dbo.BookingField_isMandatory" Category="Contains" />
+    <Link Source="dbo.BookingField" Target="dbo.BookingField_isShow" Category="Contains" />
+    <Link Source="dbo.BookingField_idField" Target="dbo.Field_id" Category="Foreign Key" Label="FK_BookingField_Field" />
+    <Link Source="dbo.BookingField_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_BookingField_Product" />
+    <Link Source="dbo.Category" Target="dbo.Category_description" Category="Contains" />
+    <Link Source="dbo.Category" Target="dbo.Category_id" Category="Contains" />
+    <Link Source="dbo.Category" Target="dbo.Category_idSupplier" Category="Contains" />
+    <Link Source="dbo.Category" Target="dbo.Category_isShow" Category="Contains" />
+    <Link Source="dbo.Category" Target="dbo.Category_name" Category="Contains" />
+    <Link Source="dbo.City" Target="dbo.City_codeCountry" Category="Contains" />
+    <Link Source="dbo.City" Target="dbo.City_continent" Category="Contains" />
+    <Link Source="dbo.City" Target="dbo.City_country" Category="Contains" />
+    <Link Source="dbo.City" Target="dbo.City_id" Category="Contains" />
+    <Link Source="dbo.City" Target="dbo.City_name" Category="Contains" />
+    <Link Source="dbo.City" Target="dbo.City_nameEN" Category="Contains" />
+    <Link Source="dbo.City" Target="dbo.City_state" Category="Contains" />
+    <Link Source="dbo.Extra" Target="dbo.Extra_cost" Category="Contains" />
+    <Link Source="dbo.Extra" Target="dbo.Extra_description" Category="Contains" />
+    <Link Source="dbo.Extra" Target="dbo.Extra_id" Category="Contains" />
+    <Link Source="dbo.Extra" Target="dbo.Extra_idSupplier" Category="Contains" />
+    <Link Source="dbo.Extra" Target="dbo.Extra_isLimitQuantity" Category="Contains" />
+    <Link Source="dbo.Extra" Target="dbo.Extra_name" Category="Contains" />
+    <Link Source="dbo.Extra" Target="dbo.Extra_price" Category="Contains" />
+    <Link Source="dbo.Extra" Target="dbo.Extra_quantityExtra" Category="Contains" />
+    <Link Source="dbo.Extra" Target="dbo.Extra_quantityMax" Category="Contains" />
+    <Link Source="dbo.Extra" Target="dbo.Extra_typeOrderQuantity" Category="Contains" />
+    <Link Source="dbo.Extra" Target="dbo.Extra_urlImage" Category="Contains" />
+    <Link Source="dbo.Field" Target="dbo.Field_dataType" Category="Contains" />
+    <Link Source="dbo.Field" Target="dbo.Field_id" Category="Contains" />
+    <Link Source="dbo.Field" Target="dbo.Field_idSupplier" Category="Contains" />
+    <Link Source="dbo.Field" Target="dbo.Field_listValue" Category="Contains" />
+    <Link Source="dbo.Field" Target="dbo.Field_name" Category="Contains" />
+    <Link Source="dbo.Field" Target="dbo.Field_typeApply" Category="Contains" />
+    <Link Source="dbo.MasterCode" Target="dbo.MasterCode_code" Category="Contains" />
+    <Link Source="dbo.MasterCode" Target="dbo.MasterCode_desc01" Category="Contains" />
+    <Link Source="dbo.MasterCode" Target="dbo.MasterCode_desc02" Category="Contains" />
+    <Link Source="dbo.MasterCode" Target="dbo.MasterCode_desc03" Category="Contains" />
+    <Link Source="dbo.MasterCode" Target="dbo.MasterCode_typeCode" Category="Contains" />
+    <Link Source="dbo.MasterCode" Target="dbo.MasterCode_valueCode" Category="Contains" />
+    <Link Source="dbo.Member" Target="dbo.Member_idParty" Category="Contains" />
+    <Link Source="dbo.Member" Target="dbo.Member_imageProfile" Category="Contains" />
+    <Link Source="dbo.Member" Target="dbo.Member_nickname" Category="Contains" />
+    <Link Source="dbo.Member" Target="dbo.Member_userID" Category="Contains" />
+    <Link Source="dbo.Member" Target="dbo.Member_userPWD" Category="Contains" />
+    <Link Source="dbo.Member_idParty" Target="dbo.Party_id" Category="Foreign Key" Label="FK_Member" />
+    <Link Source="dbo.Message" Target="dbo.Message_conclusionText" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_idSupplier" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_introductionText" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_isAttachFile" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_isConclusionText" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_isIntroductionText" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_isSend" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_ratePayment" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_timetypeSend" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_typePurpose" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_typeSend" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_typeTimeBase" Category="Contains" />
+    <Link Source="dbo.Message" Target="dbo.Message_valueSend" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_colorTheme" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_conclusionText" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_footer" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_fromEmail" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_headerType" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_headerValue" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_idSupplier" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_introductionText" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isAttachFile" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isBusinessNumber" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isCompanyAddress" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isComplanyLogo" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isConclusionText" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isConnectWithUs" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isCustomerDetail" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isGeneralTerm" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isGuestDetail" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isIntroductionText" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isItemDetail" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isItemSummary" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isMap" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isOrderSummary" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isPaymentDetail" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isPickup" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isProductSpecialMessage" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isQRCode" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isQuickSummary" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isSpecialRequirement" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_isSpecificTerm" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_subject" Category="Contains" />
+    <Link Source="dbo.MessageTemplate" Target="dbo.MessageTemplate_typeFooter" Category="Contains" />
+    <Link Source="dbo.MessageTemplate_idSupplier" Target="dbo.Supplier_idSupplier" Category="Foreign Key" Label="FK_MessageTemplate" />
+    <Link Source="dbo.Message_idSupplier" Target="dbo.Supplier_idSupplier" Category="Foreign Key" Label="FK_Message" />
+    <Link Source="dbo.NegotiatedRate" Target="dbo.NegotiatedRate_idSupplier" Category="Contains" />
+    <Link Source="dbo.NegotiatedRate" Target="dbo.NegotiatedRate_name" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_commentAgent" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_commentCustomer" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_commentSupplier" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_commentTripBox" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_datetimeConfirmed" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_datetimeCreated" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_datetimePaid" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_datetimeUpdated" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_id" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_isFullpay" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_isSendCheckin" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_isSendPayment" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_listTypePayment" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_refererSource" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_totalDiscount" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_totalDue" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_totalOrder" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_totalPaid" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_totalSale" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_typeCustomer" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_typeOrder" Category="Contains" />
+    <Link Source="dbo.Order" Target="dbo.Order_typeSource" Category="Contains" />
+    <Link Source="dbo.OrderField" Target="dbo.OrderField_id" Category="Contains" />
+    <Link Source="dbo.OrderField" Target="dbo.OrderField_idField" Category="Contains" />
+    <Link Source="dbo.OrderField" Target="dbo.OrderField_idOrder" Category="Contains" />
+    <Link Source="dbo.OrderField" Target="dbo.OrderField_valueOrder" Category="Contains" />
+    <Link Source="dbo.OrderField_idField" Target="dbo.Field_id" Category="Foreign Key" Label="FK_OrderField_Field" />
+    <Link Source="dbo.OrderField_idOrder" Target="dbo.Order_id" Category="Foreign Key" Label="FK_OrderField_Order" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_amountExtra" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_amountOrder" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_amountSurcharge" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_commission" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_datetimeFinish" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_datetimeStart" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_id" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_idOrder" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_idProduct" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_idSesstion" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_quantityExtra" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_quantityOrder" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_quantityUsed" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_totalAmount" Category="Contains" />
+    <Link Source="dbo.OrderItem" Target="dbo.OrderItem_typeStatus" Category="Contains" />
+    <Link Source="dbo.OrderItemExtra" Target="dbo.OrderItemExtra_amountExtra" Category="Contains" />
+    <Link Source="dbo.OrderItemExtra" Target="dbo.OrderItemExtra_id" Category="Contains" />
+    <Link Source="dbo.OrderItemExtra" Target="dbo.OrderItemExtra_idExtra" Category="Contains" />
+    <Link Source="dbo.OrderItemExtra" Target="dbo.OrderItemExtra_idOrderItem" Category="Contains" />
+    <Link Source="dbo.OrderItemExtra" Target="dbo.OrderItemExtra_priceExtra" Category="Contains" />
+    <Link Source="dbo.OrderItemExtra" Target="dbo.OrderItemExtra_quantityExtra" Category="Contains" />
+    <Link Source="dbo.OrderItemExtra_idExtra" Target="dbo.Extra_id" Category="Foreign Key" Label="FK_OrderItemExtra_Extra" />
+    <Link Source="dbo.OrderItemExtra_idOrderItem" Target="dbo.OrderItem_id" Category="Foreign Key" Label="FK_OrderItemExtra_OrderItem" />
+    <Link Source="dbo.OrderItemField" Target="dbo.OrderItemField_id" Category="Contains" />
+    <Link Source="dbo.OrderItemField" Target="dbo.OrderItemField_idField" Category="Contains" />
+    <Link Source="dbo.OrderItemField" Target="dbo.OrderItemField_idOrderItem" Category="Contains" />
+    <Link Source="dbo.OrderItemField" Target="dbo.OrderItemField_valueOrderItem" Category="Contains" />
+    <Link Source="dbo.OrderItemField_idField" Target="dbo.Field_id" Category="Foreign Key" Label="FK_OrderItemField" />
+    <Link Source="dbo.OrderItemField_idOrderItem" Target="dbo.OrderItem_id" Category="Foreign Key" Label="FK_OrderItemField1" />
+    <Link Source="dbo.OrderItemProduct" Target="dbo.OrderItemProduct_amountOrder" Category="Contains" />
+    <Link Source="dbo.OrderItemProduct" Target="dbo.OrderItemProduct_id" Category="Contains" />
+    <Link Source="dbo.OrderItemProduct" Target="dbo.OrderItemProduct_idOrderItem" Category="Contains" />
+    <Link Source="dbo.OrderItemProduct" Target="dbo.OrderItemProduct_idPrice" Category="Contains" />
+    <Link Source="dbo.OrderItemProduct" Target="dbo.OrderItemProduct_price" Category="Contains" />
+    <Link Source="dbo.OrderItemProduct" Target="dbo.OrderItemProduct_quantityOrder" Category="Contains" />
+    <Link Source="dbo.OrderItemProduct" Target="dbo.OrderItemProduct_quantityUnit" Category="Contains" />
+    <Link Source="dbo.OrderItemProduct" Target="dbo.OrderItemProduct_quantityUsed" Category="Contains" />
+    <Link Source="dbo.OrderItemProduct" Target="dbo.OrderItemProduct_typePriceOption" Category="Contains" />
+    <Link Source="dbo.OrderItemProduct_idOrderItem" Target="dbo.OrderItem_id" Category="Foreign Key" Label="FK_OrderItemProduct_OrderItem" />
+    <Link Source="dbo.OrderItemProduct_idPrice" Target="dbo.ProductPrice_id" Category="Foreign Key" Label="FK_OrderItemProduct_Price" />
+    <Link Source="dbo.OrderItemResource" Target="dbo.OrderItemResource_idOrderItem" Category="Contains" />
+    <Link Source="dbo.OrderItemResource" Target="dbo.OrderItemResource_idResource" Category="Contains" />
+    <Link Source="dbo.OrderItemResource" Target="dbo.OrderItemResource_idSession" Category="Contains" />
+    <Link Source="dbo.OrderItemResource" Target="dbo.OrderItemResource_quantityAssign" Category="Contains" />
+    <Link Source="dbo.OrderItemResource_idOrderItem" Target="dbo.OrderItemSession_idOrderItem" Category="Foreign Key" Label="FK_OrderItemResource_Session" />
+    <Link Source="dbo.OrderItemResource_idResource" Target="dbo.SessionResource_idResource" Category="Foreign Key" Label="FK_OrderItemResource_Resource" />
+    <Link Source="dbo.OrderItemSession" Target="dbo.OrderItemSession_idOrderItem" Category="Contains" />
+    <Link Source="dbo.OrderItemSession" Target="dbo.OrderItemSession_idSession" Category="Contains" />
+    <Link Source="dbo.OrderItemSession" Target="dbo.OrderItemSession_idSpotPickup" Category="Contains" />
+    <Link Source="dbo.OrderItemSession" Target="dbo.OrderItemSession_isCheckin" Category="Contains" />
+    <Link Source="dbo.OrderItemSession" Target="dbo.OrderItemSession_quantityUsed" Category="Contains" />
+    <Link Source="dbo.OrderItemSession" Target="dbo.OrderItemSession_timePickup" Category="Contains" />
+    <Link Source="dbo.OrderItemSession_idOrderItem" Target="dbo.OrderItem_id" Category="Foreign Key" Label="FK_OrderItemSession1" />
+    <Link Source="dbo.OrderItemSession_idSession" Target="dbo.ProductSession_id" Category="Foreign Key" Label="FK_OrderItemSession" />
+    <Link Source="dbo.OrderItem_idOrder" Target="dbo.Order_id" Category="Foreign Key" Label="FK_OrderItem2" />
+    <Link Source="dbo.OrderItem_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_OrderItem" />
+    <Link Source="dbo.OrderItem_idSesstion" Target="dbo.ProductSession_id" Category="Foreign Key" Label="FK_OrderItem1" />
+    <Link Source="dbo.Package" Target="dbo.Package_day" Category="Contains" />
+    <Link Source="dbo.Package" Target="dbo.Package_idProduct" Category="Contains" />
+    <Link Source="dbo.Package" Target="dbo.Package_idProductPart" Category="Contains" />
+    <Link Source="dbo.Package" Target="dbo.Package_isAllday" Category="Contains" />
+    <Link Source="dbo.Package" Target="dbo.Package_timeFinish" Category="Contains" />
+    <Link Source="dbo.Package" Target="dbo.Package_timeStart" Category="Contains" />
+    <Link Source="dbo.Package" Target="dbo.Package_typeProduct" Category="Contains" />
+    <Link Source="dbo.PackageSession" Target="dbo.PackageSession_idProduct" Category="Contains" />
+    <Link Source="dbo.PackageSession" Target="dbo.PackageSession_idProductPart" Category="Contains" />
+    <Link Source="dbo.PackageSession" Target="dbo.PackageSession_idSessionPart" Category="Contains" />
+    <Link Source="dbo.PackageSession_idProduct" Target="dbo.Package_idProduct" Category="Foreign Key" Label="FK_PackageSession_Package" />
+    <Link Source="dbo.PackageSession_idSessionPart" Target="dbo.ProductSession_id" Category="Foreign Key" Label="FK_PackageSession_Session" />
+    <Link Source="dbo.Package_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_Package_Finished" />
+    <Link Source="dbo.Package_idProductPart" Target="dbo.Product_id" Category="Foreign Key" Label="FK_Package_Part" />
+    <Link Source="dbo.Party" Target="dbo.Party_companyAlias" Category="Contains" />
+    <Link Source="dbo.Party" Target="dbo.Party_dateBirth" Category="Contains" />
+    <Link Source="dbo.Party" Target="dbo.Party_gender" Category="Contains" />
+    <Link Source="dbo.Party" Target="dbo.Party_id" Category="Contains" />
+    <Link Source="dbo.Party" Target="dbo.Party_nameCompany" Category="Contains" />
+    <Link Source="dbo.Party" Target="dbo.Party_nameFirst" Category="Contains" />
+    <Link Source="dbo.Party" Target="dbo.Party_nameLast" Category="Contains" />
+    <Link Source="dbo.Party" Target="dbo.Party_title" Category="Contains" />
+    <Link Source="dbo.Party" Target="dbo.Party_typeParty" Category="Contains" />
+    <Link Source="dbo.PartyAccount" Target="dbo.PartyAccount_accountName" Category="Contains" />
+    <Link Source="dbo.PartyAccount" Target="dbo.PartyAccount_accountNo" Category="Contains" />
+    <Link Source="dbo.PartyAccount" Target="dbo.PartyAccount_id" Category="Contains" />
+    <Link Source="dbo.PartyAccount" Target="dbo.PartyAccount_idPartyFinance" Category="Contains" />
+    <Link Source="dbo.PartyAccount" Target="dbo.PartyAccount_idPartyHolder" Category="Contains" />
+    <Link Source="dbo.PartyAccount" Target="dbo.PartyAccount_typeAccount" Category="Contains" />
+    <Link Source="dbo.PartyAccount" Target="dbo.PartyAccount_typeFinance" Category="Contains" />
+    <Link Source="dbo.PartyAccount_idPartyHolder" Target="dbo.Party_id" Category="Foreign Key" Label="FK_PartyAccount" />
+    <Link Source="dbo.PartyContact" Target="dbo.PartyContact_contact" Category="Contains" />
+    <Link Source="dbo.PartyContact" Target="dbo.PartyContact_idParty" Category="Contains" />
+    <Link Source="dbo.PartyContact" Target="dbo.PartyContact_typeContact" Category="Contains" />
+    <Link Source="dbo.PartyContact_idParty" Target="dbo.Party_id" Category="Foreign Key" Label="FK_PartyContact" />
+    <Link Source="dbo.PartyRelation" Target="dbo.PartyRelation_idParty1" Category="Contains" />
+    <Link Source="dbo.PartyRelation" Target="dbo.PartyRelation_idParty2" Category="Contains" />
+    <Link Source="dbo.PartyRelation" Target="dbo.PartyRelation_typeRelation" Category="Contains" />
+    <Link Source="dbo.PartyRelation_idParty1" Target="dbo.Party_id" Category="Foreign Key" Label="FK_PartyRelation1" />
+    <Link Source="dbo.PartyRelation_idParty2" Target="dbo.Party_id" Category="Foreign Key" Label="FK_PartyRelation" />
+    <Link Source="dbo.Payment" Target="dbo.Payment_amount" Category="Contains" />
+    <Link Source="dbo.Payment" Target="dbo.Payment_datePayment" Category="Contains" />
+    <Link Source="dbo.Payment" Target="dbo.Payment_id" Category="Contains" />
+    <Link Source="dbo.Payment" Target="dbo.Payment_note" Category="Contains" />
+    <Link Source="dbo.Payment" Target="dbo.Payment_typePayment" Category="Contains" />
+    <Link Source="dbo.Payment" Target="dbo.Payment_typeReceipt" Category="Contains" />
+    <Link Source="dbo.PaymentOrder" Target="dbo.PaymentOrder_amount" Category="Contains" />
+    <Link Source="dbo.PaymentOrder" Target="dbo.PaymentOrder_id" Category="Contains" />
+    <Link Source="dbo.PaymentOrder" Target="dbo.PaymentOrder_idOrder" Category="Contains" />
+    <Link Source="dbo.PaymentOrder" Target="dbo.PaymentOrder_idPayment" Category="Contains" />
+    <Link Source="dbo.PaymentOrder_idOrder" Target="dbo.Order_id" Category="Foreign Key" Label="FK_PaymentOrder_Order" />
+    <Link Source="dbo.PaymentOrder_idPayment" Target="dbo.Payment_id" Category="Foreign Key" Label="FK_PaymentOrder_Payment" />
+    <Link Source="dbo.Pickup" Target="dbo.Pickup_id" Category="Contains" />
+    <Link Source="dbo.Pickup" Target="dbo.Pickup_idSpotEnd" Category="Contains" />
+    <Link Source="dbo.Pickup" Target="dbo.Pickup_idSpotStart" Category="Contains" />
+    <Link Source="dbo.Pickup" Target="dbo.Pickup_idSupplier" Category="Contains" />
+    <Link Source="dbo.Pickup" Target="dbo.Pickup_isAdditionalNote" Category="Contains" />
+    <Link Source="dbo.Pickup" Target="dbo.Pickup_isAllowRequest" Category="Contains" />
+    <Link Source="dbo.Pickup" Target="dbo.Pickup_miniteDuration" Category="Contains" />
+    <Link Source="dbo.Pickup" Target="dbo.Pickup_name" Category="Contains" />
+    <Link Source="dbo.Pickup" Target="dbo.Pickup_noteAdditional" Category="Contains" />
+    <Link Source="dbo.Pickup" Target="dbo.Pickup_noteRequest" Category="Contains" />
+    <Link Source="dbo.PickupSpot" Target="dbo.PickupSpot_idPickup" Category="Contains" />
+    <Link Source="dbo.PickupSpot" Target="dbo.PickupSpot_idSpot" Category="Contains" />
+    <Link Source="dbo.PickupSpot" Target="dbo.PickupSpot_minutePrior" Category="Contains" />
+    <Link Source="dbo.PickupSpot" Target="dbo.PickupSpot_name" Category="Contains" />
+    <Link Source="dbo.PickupSpot" Target="dbo.PickupSpot_noteInstruction" Category="Contains" />
+    <Link Source="dbo.PickupSpot" Target="dbo.PickupSpot_seq" Category="Contains" />
+    <Link Source="dbo.PickupSpot_idPickup" Target="dbo.Pickup_id" Category="Foreign Key" Label="FK_PickupSpot_Pickup" />
+    <Link Source="dbo.PickupSpot_idSpot" Target="dbo.Spot_id" Category="Foreign Key" Label="FK_PickupSpot_Spot" />
+    <Link Source="dbo.PriceOption" Target="dbo.PriceOption_cost" Category="Contains" />
+    <Link Source="dbo.PriceOption" Target="dbo.PriceOption_idProduct" Category="Contains" />
+    <Link Source="dbo.PriceOption" Target="dbo.PriceOption_idResource" Category="Contains" />
+    <Link Source="dbo.PriceOption" Target="dbo.PriceOption_isGroup" Category="Contains" />
+    <Link Source="dbo.PriceOption" Target="dbo.PriceOption_note" Category="Contains" />
+    <Link Source="dbo.PriceOption" Target="dbo.PriceOption_price" Category="Contains" />
+    <Link Source="dbo.PriceOption" Target="dbo.PriceOption_quantityMax" Category="Contains" />
+    <Link Source="dbo.PriceOption" Target="dbo.PriceOption_quantitytUnit" Category="Contains" />
+    <Link Source="dbo.PriceOption" Target="dbo.PriceOption_rateMarketplace" Category="Contains" />
+    <Link Source="dbo.PriceOption" Target="dbo.PriceOption_typePriceOption" Category="Contains" />
+    <Link Source="dbo.PriceOption_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_PriceOption_Product" />
+    <Link Source="dbo.PriceOption_idResource" Target="dbo.Resource_id" Category="Foreign Key" Label="FK_PriceOption_Resource" />
+    <Link Source="dbo.Product" Target="dbo.Product_codeProduct" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_dayMinPayment" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_descriptionLong" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_descriptionShort" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_id" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_idPickup" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_idSpotFinish" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_idSpotStart" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_idSupplier" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_isAllday" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_isAllowWaiting" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_isIncludeExtra" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_isMinPayment" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_isPart" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_isPaymentFull" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_isShowSeat" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_isSpecialPayment" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_isSpecialRule" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_listCity" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_listSpot" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_listTime" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_name" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_note" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_priceAdvertise" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_productColor" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_quantityAfter" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_quantityLabel" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_quantityLabelPlural" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_quantityMaxOrder" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_quantityMinOrder" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_quantityMinSession" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_rateDeposit" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_timeTypeDuration" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_timeTypeMiniumNotice" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_typeConfirm" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_typeDepoist" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_typeInventory" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_typeProduct" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_typeSessionSchedule" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_valueDuration" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_valueMiniumNotice" Category="Contains" />
+    <Link Source="dbo.Product" Target="dbo.Product_valueSpecialRule" Category="Contains" />
+    <Link Source="dbo.ProductCategory" Target="dbo.ProductCategory_idCategory" Category="Contains" />
+    <Link Source="dbo.ProductCategory" Target="dbo.ProductCategory_idProduct" Category="Contains" />
+    <Link Source="dbo.ProductCategory_idCategory" Target="dbo.Category_id" Category="Foreign Key" Label="FK_ProductCategory" />
+    <Link Source="dbo.ProductCategory_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_ProductCategory1" />
+    <Link Source="dbo.ProductExtra" Target="dbo.ProductExtra_idExtra" Category="Contains" />
+    <Link Source="dbo.ProductExtra" Target="dbo.ProductExtra_idProduct" Category="Contains" />
+    <Link Source="dbo.ProductExtra" Target="dbo.ProductExtra_seq" Category="Contains" />
+    <Link Source="dbo.ProductExtra_idExtra" Target="dbo.Extra_id" Category="Foreign Key" Label="FK_ProductExtra_Extra" />
+    <Link Source="dbo.ProductExtra_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_ProductExtra_Product" />
+    <Link Source="dbo.ProductField" Target="dbo.ProductField_idField" Category="Contains" />
+    <Link Source="dbo.ProductField" Target="dbo.ProductField_idProduct" Category="Contains" />
+    <Link Source="dbo.ProductField" Target="dbo.ProductField_valueProduct" Category="Contains" />
+    <Link Source="dbo.ProductField_idField" Target="dbo.Field_id" Category="Foreign Key" Label="FK_ProductField_Field" />
+    <Link Source="dbo.ProductField_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_ProductField_Product" />
+    <Link Source="dbo.ProductImage" Target="dbo.ProductImage_id" Category="Contains" />
+    <Link Source="dbo.ProductImage" Target="dbo.ProductImage_idProduct" Category="Contains" />
+    <Link Source="dbo.ProductImage" Target="dbo.ProductImage_isDefault" Category="Contains" />
+    <Link Source="dbo.ProductImage" Target="dbo.ProductImage_seq" Category="Contains" />
+    <Link Source="dbo.ProductImage" Target="dbo.ProductImage_urlImageFull" Category="Contains" />
+    <Link Source="dbo.ProductImage" Target="dbo.ProductImage_urlImageLarge" Category="Contains" />
+    <Link Source="dbo.ProductImage" Target="dbo.ProductImage_urlImageMedium" Category="Contains" />
+    <Link Source="dbo.ProductImage" Target="dbo.ProductImage_urlImageSmall" Category="Contains" />
+    <Link Source="dbo.ProductImage_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_ProductImage" />
+    <Link Source="dbo.ProductNego" Target="dbo.ProductNego_idAgent" Category="Contains" />
+    <Link Source="dbo.ProductNego" Target="dbo.ProductNego_idProduct" Category="Contains" />
+    <Link Source="dbo.ProductNego" Target="dbo.ProductNego_idSupplier" Category="Contains" />
+    <Link Source="dbo.ProductNego" Target="dbo.ProductNego_nameNego" Category="Contains" />
+    <Link Source="dbo.ProductNego" Target="dbo.ProductNego_rateComm" Category="Contains" />
+    <Link Source="dbo.ProductNego" Target="dbo.ProductNego_typePriceOption" Category="Contains" />
+    <Link Source="dbo.ProductNego_idAgent" Target="dbo.Agent_idAgent" Category="Foreign Key" Label="FK_ProductNego_Agent" />
+    <Link Source="dbo.ProductNego_nameNego" Target="dbo.NegotiatedRate_name" Category="Foreign Key" Label="FK_ProductNego_Nego" />
+    <Link Source="dbo.ProductPrice" Target="dbo.ProductPrice_cost" Category="Contains" />
+    <Link Source="dbo.ProductPrice" Target="dbo.ProductPrice_id" Category="Contains" />
+    <Link Source="dbo.ProductPrice" Target="dbo.ProductPrice_idProduct" Category="Contains" />
+    <Link Source="dbo.ProductPrice" Target="dbo.ProductPrice_idSession" Category="Contains" />
+    <Link Source="dbo.ProductPrice" Target="dbo.ProductPrice_price" Category="Contains" />
+    <Link Source="dbo.ProductPrice" Target="dbo.ProductPrice_quantityMax" Category="Contains" />
+    <Link Source="dbo.ProductPrice" Target="dbo.ProductPrice_quantityOrder" Category="Contains" />
+    <Link Source="dbo.ProductPrice" Target="dbo.ProductPrice_typePriceOption" Category="Contains" />
+    <Link Source="dbo.ProductPrice_idSession" Target="dbo.ProductSession_id" Category="Foreign Key" Label="FK_ProductPrice_Session" />
+    <Link Source="dbo.ProductRelated" Target="dbo.ProductRelated_idProduct1" Category="Contains" />
+    <Link Source="dbo.ProductRelated" Target="dbo.ProductRelated_idProduct2" Category="Contains" />
+    <Link Source="dbo.ProductRelated_idProduct1" Target="dbo.Product_id" Category="Foreign Key" Label="FK_ProductRelated1" />
+    <Link Source="dbo.ProductRelated_idProduct2" Target="dbo.Product_id" Category="Foreign Key" Label="FK_ProductRelated2" />
+    <Link Source="dbo.ProductSession" Target="dbo.ProductSession_datetimeFinish" Category="Contains" />
+    <Link Source="dbo.ProductSession" Target="dbo.ProductSession_datetimeStart" Category="Contains" />
+    <Link Source="dbo.ProductSession" Target="dbo.ProductSession_id" Category="Contains" />
+    <Link Source="dbo.ProductSession" Target="dbo.ProductSession_idTemplate" Category="Contains" />
+    <Link Source="dbo.ProductSession" Target="dbo.ProductSession_isAllday" Category="Contains" />
+    <Link Source="dbo.ProductSession" Target="dbo.ProductSession_quantityMax" Category="Contains" />
+    <Link Source="dbo.ProductSession" Target="dbo.ProductSession_quantityUsed" Category="Contains" />
+    <Link Source="dbo.ProductSession" Target="dbo.ProductSession_timetypeDuration" Category="Contains" />
+    <Link Source="dbo.ProductSession" Target="dbo.ProductSession_valueDuration" Category="Contains" />
+    <Link Source="dbo.ProductSession_idTemplate" Target="dbo.SessionTemplate_id" Category="Foreign Key" Label="FK_ProductSession" />
+    <Link Source="dbo.ProductSpot" Target="dbo.ProductSpot_idProduct" Category="Contains" />
+    <Link Source="dbo.ProductSpot" Target="dbo.ProductSpot_idSpot" Category="Contains" />
+    <Link Source="dbo.ProductSpot" Target="dbo.ProductSpot_seq" Category="Contains" />
+    <Link Source="dbo.ProductSpot" Target="dbo.ProductSpot_typeService" Category="Contains" />
+    <Link Source="dbo.ProductSpot_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_ProductSpot_Product" />
+    <Link Source="dbo.ProductSpot_idSpot" Target="dbo.Spot_id" Category="Foreign Key" Label="FK_ProductSpot_Spot" />
+    <Link Source="dbo.ProductSurcharge" Target="dbo.ProductSurcharge_idProduct" Category="Contains" />
+    <Link Source="dbo.ProductSurcharge" Target="dbo.ProductSurcharge_idSurcharge" Category="Contains" />
+    <Link Source="dbo.ProductSurcharge" Target="dbo.ProductSurcharge_seq" Category="Contains" />
+    <Link Source="dbo.ProductSurcharge_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_ProductSurcharge_Product" />
+    <Link Source="dbo.ProductSurcharge_idSurcharge" Target="dbo.Surcharge_id" Category="Foreign Key" Label="FK_ProductSurcharge_Surcharge" />
+    <Link Source="dbo.ProductTag" Target="dbo.ProductTag_idProduct" Category="Contains" />
+    <Link Source="dbo.ProductTag" Target="dbo.ProductTag_tag" Category="Contains" />
+    <Link Source="dbo.ProductTag" Target="dbo.ProductTag_typeTag" Category="Contains" />
+    <Link Source="dbo.ProductTag_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_ProductTag" />
+    <Link Source="dbo.ProductVideo" Target="dbo.ProductVideo_id" Category="Contains" />
+    <Link Source="dbo.ProductVideo" Target="dbo.ProductVideo_idProduct" Category="Contains" />
+    <Link Source="dbo.ProductVideo" Target="dbo.ProductVideo_isDefault" Category="Contains" />
+    <Link Source="dbo.ProductVideo" Target="dbo.ProductVideo_seq" Category="Contains" />
+    <Link Source="dbo.ProductVideo" Target="dbo.ProductVideo_typePlatform" Category="Contains" />
+    <Link Source="dbo.ProductVideo" Target="dbo.ProductVideo_urlVideo" Category="Contains" />
+    <Link Source="dbo.ProductVideo_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_ProductVideo" />
+    <Link Source="dbo.Product_idPickup" Target="dbo.Pickup_id" Category="Foreign Key" Label="FK_Product" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_amountLimit" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_amountMin" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_codePromotion" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_dateOrderEnd" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_dateOrderStart" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_dateSessionEnd" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_dateSessionStart" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_idCategory" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_idProduct" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_isIncludeExtra" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_isIncludeSurcharge" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_isLimitTotal" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_ratePromotion" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_typeApply" Category="Contains" />
+    <Link Source="dbo.Promotion" Target="dbo.Promotion_typeApplyProduct" Category="Contains" />
+    <Link Source="dbo.Promotion_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_Promotion" />
+    <Link Source="dbo.Purchage" Target="dbo.Purchage_companyPurchage" Category="Contains" />
+    <Link Source="dbo.Purchage" Target="dbo.Purchage_datePurchage" Category="Contains" />
+    <Link Source="dbo.Purchage" Target="dbo.Purchage_id" Category="Contains" />
+    <Link Source="dbo.Purchage" Target="dbo.Purchage_idCompanyPurchase" Category="Contains" />
+    <Link Source="dbo.Purchage" Target="dbo.Purchage_idSupplier" Category="Contains" />
+    <Link Source="dbo.Purchage" Target="dbo.Purchage_note" Category="Contains" />
+    <Link Source="dbo.Purchage" Target="dbo.Purchage_totalPurchage" Category="Contains" />
+    <Link Source="dbo.PurchageDetail" Target="dbo.PurchageDetail_amountPurchage" Category="Contains" />
+    <Link Source="dbo.PurchageDetail" Target="dbo.PurchageDetail_cost" Category="Contains" />
+    <Link Source="dbo.PurchageDetail" Target="dbo.PurchageDetail_id" Category="Contains" />
+    <Link Source="dbo.PurchageDetail" Target="dbo.PurchageDetail_idPurchage" Category="Contains" />
+    <Link Source="dbo.PurchageDetail" Target="dbo.PurchageDetail_idSession" Category="Contains" />
+    <Link Source="dbo.PurchageDetail" Target="dbo.PurchageDetail_note" Category="Contains" />
+    <Link Source="dbo.PurchageDetail" Target="dbo.PurchageDetail_quantityPurchage" Category="Contains" />
+    <Link Source="dbo.PurchageDetail" Target="dbo.PurchageDetail_typeItem" Category="Contains" />
+    <Link Source="dbo.PurchageDetail" Target="dbo.PurchageDetail_typePayment" Category="Contains" />
+    <Link Source="dbo.PurchageDetail_idPurchage" Target="dbo.Purchage_id" Category="Foreign Key" Label="FK_PurchageDetail_Purchase" />
+    <Link Source="dbo.PurchageDetail_idSession" Target="dbo.SessionOrdered_idSessionPart" Category="Foreign Key" Label="FK_PurchageDetail_Session" />
+    <Link Source="dbo.Purchage_idCompanyPurchase" Target="dbo.Party_id" Category="Foreign Key" Label="FK_Purchage" />
+    <Link Source="dbo.Resource" Target="dbo.Resource_id" Category="Contains" />
+    <Link Source="dbo.Resource" Target="dbo.Resource_idSupplier" Category="Contains" />
+    <Link Source="dbo.Resource" Target="dbo.Resource_isLimitQuantity" Category="Contains" />
+    <Link Source="dbo.Resource" Target="dbo.Resource_name" Category="Contains" />
+    <Link Source="dbo.Resource" Target="dbo.Resource_quantityMax" Category="Contains" />
+    <Link Source="dbo.Resource" Target="dbo.Resource_typeResource" Category="Contains" />
+    <Link Source="dbo.Resource" Target="dbo.Resource_typeShace" Category="Contains" />
+    <Link Source="dbo.SessionOrdered" Target="dbo.SessionOrdered_amountExpense" Category="Contains" />
+    <Link Source="dbo.SessionOrdered" Target="dbo.SessionOrdered_amountProfit" Category="Contains" />
+    <Link Source="dbo.SessionOrdered" Target="dbo.SessionOrdered_amountSale" Category="Contains" />
+    <Link Source="dbo.SessionOrdered" Target="dbo.SessionOrdered_commAgent" Category="Contains" />
+    <Link Source="dbo.SessionOrdered" Target="dbo.SessionOrdered_commOperation" Category="Contains" />
+    <Link Source="dbo.SessionOrdered" Target="dbo.SessionOrdered_datetimeFinish" Category="Contains" />
+    <Link Source="dbo.SessionOrdered" Target="dbo.SessionOrdered_datetimeStart" Category="Contains" />
+    <Link Source="dbo.SessionOrdered" Target="dbo.SessionOrdered_idProduct" Category="Contains" />
+    <Link Source="dbo.SessionOrdered" Target="dbo.SessionOrdered_idSessionPart" Category="Contains" />
+    <Link Source="dbo.SessionOrdered" Target="dbo.SessionOrdered_quantityUsed" Category="Contains" />
+    <Link Source="dbo.SessionResource" Target="dbo.SessionResource_idResource" Category="Contains" />
+    <Link Source="dbo.SessionResource" Target="dbo.SessionResource_idSession" Category="Contains" />
+    <Link Source="dbo.SessionResource" Target="dbo.SessionResource_quantityMax" Category="Contains" />
+    <Link Source="dbo.SessionResource" Target="dbo.SessionResource_quantityUsed" Category="Contains" />
+    <Link Source="dbo.SessionResource_idResource" Target="dbo.Resource_id" Category="Foreign Key" Label="FK_SessionResource_Resource" />
+    <Link Source="dbo.SessionResource_idSession" Target="dbo.ProductSession_id" Category="Foreign Key" Label="FK_SessionResource_Session" />
+    <Link Source="dbo.SessionRole" Target="dbo.SessionRole_id" Category="Contains" />
+    <Link Source="dbo.SessionRole" Target="dbo.SessionRole_idParty" Category="Contains" />
+    <Link Source="dbo.SessionRole" Target="dbo.SessionRole_idSessionPart" Category="Contains" />
+    <Link Source="dbo.SessionRole" Target="dbo.SessionRole_typeRole" Category="Contains" />
+    <Link Source="dbo.SessionRole_idParty" Target="dbo.Party_id" Category="Foreign Key" Label="FK_SessionRole2" />
+    <Link Source="dbo.SessionRole_idSessionPart" Target="dbo.SessionOrdered_idSessionPart" Category="Foreign Key" Label="FK_SessionRole" />
+    <Link Source="dbo.SessionTemplate" Target="dbo.SessionTemplate_dateRepeatEnd" Category="Contains" />
+    <Link Source="dbo.SessionTemplate" Target="dbo.SessionTemplate_dateRepeatStart" Category="Contains" />
+    <Link Source="dbo.SessionTemplate" Target="dbo.SessionTemplate_datetimeFinish" Category="Contains" />
+    <Link Source="dbo.SessionTemplate" Target="dbo.SessionTemplate_datetimeStart" Category="Contains" />
+    <Link Source="dbo.SessionTemplate" Target="dbo.SessionTemplate_id" Category="Contains" />
+    <Link Source="dbo.SessionTemplate" Target="dbo.SessionTemplate_idProduct" Category="Contains" />
+    <Link Source="dbo.SessionTemplate" Target="dbo.SessionTemplate_minuteDuration" Category="Contains" />
+    <Link Source="dbo.SessionTemplate" Target="dbo.SessionTemplate_timetypeRepeat" Category="Contains" />
+    <Link Source="dbo.SessionTemplate" Target="dbo.SessionTemplate_valueRepeat" Category="Contains" />
+    <Link Source="dbo.SessionTemplateWeek" Target="dbo.SessionTemplateWeek_idTemplate" Category="Contains" />
+    <Link Source="dbo.SessionTemplateWeek" Target="dbo.SessionTemplateWeek_timeEnd" Category="Contains" />
+    <Link Source="dbo.SessionTemplateWeek" Target="dbo.SessionTemplateWeek_timeStart" Category="Contains" />
+    <Link Source="dbo.SessionTemplateWeek" Target="dbo.SessionTemplateWeek_weekdayNo" Category="Contains" />
+    <Link Source="dbo.SessionTemplateWeek_idTemplate" Target="dbo.SessionTemplate_id" Category="Foreign Key" Label="FK_SessionTemplateWeek" />
+    <Link Source="dbo.SessionTemplate_idProduct" Target="dbo.Product_id" Category="Foreign Key" Label="FK_SessionTemplate" />
+    <Link Source="dbo.Spot" Target="dbo.Spot_address1" Category="Contains" />
+    <Link Source="dbo.Spot" Target="dbo.Spot_address2" Category="Contains" />
+    <Link Source="dbo.Spot" Target="dbo.Spot_id" Category="Contains" />
+    <Link Source="dbo.Spot" Target="dbo.Spot_idCity" Category="Contains" />
+    <Link Source="dbo.Spot" Target="dbo.Spot_latitude" Category="Contains" />
+    <Link Source="dbo.Spot" Target="dbo.Spot_longitude" Category="Contains" />
+    <Link Source="dbo.Spot" Target="dbo.Spot_name" Category="Contains" />
+    <Link Source="dbo.Spot" Target="dbo.Spot_postcode" Category="Contains" />
+    <Link Source="dbo.Spot" Target="dbo.Spot_typeSpot" Category="Contains" />
+    <Link Source="dbo.Spot_idCity" Target="dbo.City_id" Category="Foreign Key" Label="FK_Spot" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_businessNumber" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_city" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_continent" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_country" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_currency" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_dayMinPayment" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_description" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_email" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_fax" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_firstName" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_idSupplier" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_isExplicitConsent" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_isIncludeOrderFee" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_isMinPayment" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_isPaymentFull" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_language" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_lastName" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_latitude" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_listCity" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_listTypePayment" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_longitude" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_mobile" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_name" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_openingHours" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_phone" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_postcode" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_privacyPolicy" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_rateDeposit" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_term" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_timezone" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_typeBusiness" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_typeDepoist" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_urlFacebook" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_urlGoogle" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_urlHost" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_urlInstagram" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_urlLogo" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_urlPinterest" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_urlTripadvisor" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_urlTwitter" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_urlWebsite" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_urlYoutube" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_weekStartNo" Category="Contains" />
+    <Link Source="dbo.Supplier" Target="dbo.Supplier_youtubeID" Category="Contains" />
+    <Link Source="dbo.SupplierCity" Target="dbo.SupplierCity_idCity" Category="Contains" />
+    <Link Source="dbo.SupplierCity" Target="dbo.SupplierCity_idSupplier" Category="Contains" />
+    <Link Source="dbo.SupplierCity_idCity" Target="dbo.City_id" Category="Foreign Key" Label="FK_SupplierCity_City" />
+    <Link Source="dbo.SupplierCity_idSupplier" Target="dbo.Supplier_idSupplier" Category="Foreign Key" Label="FK_SupplierCity_Supplier" />
+    <Link Source="dbo.SupplierPayment" Target="dbo.SupplierPayment_idSupplier" Category="Contains" />
+    <Link Source="dbo.SupplierPayment" Target="dbo.SupplierPayment_typePayment" Category="Contains" />
+    <Link Source="dbo.SupplierPayment_idSupplier" Target="dbo.Supplier_idSupplier" Category="Foreign Key" Label="FK_SupplierPayment" />
+    <Link Source="dbo.Supplier_idSupplier" Target="dbo.Party_id" Category="Foreign Key" Label="FK_Supplier" />
+    <Link Source="dbo.Surcharge" Target="dbo.Surcharge_id" Category="Contains" />
+    <Link Source="dbo.Surcharge" Target="dbo.Surcharge_idSupplier" Category="Contains" />
+    <Link Source="dbo.Surcharge" Target="dbo.Surcharge_label" Category="Contains" />
+    <Link Source="dbo.Surcharge" Target="dbo.Surcharge_note" Category="Contains" />
+    <Link Source="dbo.Surcharge" Target="dbo.Surcharge_rateSurcharge" Category="Contains" />
+    <Link Source="dbo.Surcharge" Target="dbo.Surcharge_typeApply" Category="Contains" />
+    <Link Source="dbo.Surcharge" Target="dbo.Surcharge_typeSurcharge" Category="Contains" />
+    <Link Source="dbo.Surcharge_idSupplier" Target="dbo.Supplier_idSupplier" Category="Foreign Key" Label="FK_Surcharge" />
+    <Link Source="dbo.User" Target="dbo.User_idParty" Category="Contains" />
+    <Link Source="dbo.User" Target="dbo.User_idSupplier" Category="Contains" />
+    <Link Source="dbo.User" Target="dbo.User_isAbandonCart" Category="Contains" />
+    <Link Source="dbo.User" Target="dbo.User_isBouncedEmail" Category="Contains" />
+    <Link Source="dbo.User" Target="dbo.User_isMessage" Category="Contains" />
+    <Link Source="dbo.User" Target="dbo.User_isNewCompany" Category="Contains" />
+    <Link Source="dbo.User" Target="dbo.User_isOrderInternal" Category="Contains" />
+    <Link Source="dbo.User" Target="dbo.User_isOrderOnline" Category="Contains" />
+    <Link Source="dbo.User" Target="dbo.User_isViewCompany" Category="Contains" />
+    <Link Source="dbo.User" Target="dbo.User_isWeeklyReport" Category="Contains" />
+    <Link Source="dbo.User" Target="dbo.User_typeRole" Category="Contains" />
+    <Link Source="dbo.User_idParty" Target="dbo.Member_idParty" Category="Foreign Key" Label="FK_User_Member" />
+    <Link Source="dbo.User_idSupplier" Target="dbo.Supplier_idSupplier" Category="Foreign Key" Label="FK_User_Supplier" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" Label="포함" Description="링크 소스에 대상 개체가 포함되는지 여부입니다." CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="포함 위치" IsContainment="True" OutgoingActionLabel="포함" />
+    <Category Id="Database" />
+    <Category Id="Field" />
+    <Category Id="Field Foreign" />
+    <Category Id="Field Optional" />
+    <Category Id="Field Primary" />
+    <Category Id="Foreign Key" />
+    <Category Id="Schema" />
+    <Category Id="Table" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Description" Label="설명" Description="설명" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="그룹" Description="그룹으로 노드가 표시됩니다." DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="레이블" Description="Annotatable 개체의 표시 가능 레이블입니다." DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Table" ValueLabel="True">
+      <Condition Expression="HasCategory('Table')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Schema" ValueLabel="True">
+      <Condition Expression="HasCategory('Schema')" />
+      <Setter Property="Background" Value="#FF7F9169" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Primary" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Primary')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Optional" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Optional')" />
+      <Setter Property="Background" Value="#FF808040" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Foreign" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Foreign')" />
+      <Setter Property="Background" Value="#FF8080FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="True">
+      <Condition Expression="HasCategory('Field')" />
+      <Setter Property="Background" Value="#FFC0A000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Database" ValueLabel="True">
+      <Condition Expression="HasCategory('Database')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+    </Style>
+  </Styles>
+</DirectedGraph>
